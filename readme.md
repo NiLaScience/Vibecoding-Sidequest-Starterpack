@@ -5,24 +5,27 @@
 
 ## 0  Why This Repo Exists  
 
-You’re here because you can code a bit but haven’t shipped a full product yet.  
-The **vibecoding** starter pack turns that gap into a sprint:
+You're here because you know how to code but haven't shipped a full product.  
+Or maybe you have, but you see the AI wave coming and know that **competence > credentials**.
 
-* **Five progressively harder projects** (PromptLibrary → VidTutor)  
-* **Guides** that show how to orchestrate AI agents instead of writing every line yourself  
-* **Learning‑goal matrix** so you can prove what you actually learned  
+The **vibecoding** starter pack is your **golden bridge to impact**.
+It's designed to turn the gap between tutorials and shipping into a sprint:
 
-Ship → reflect → ship again. That’s the loop.  
+* **Five progressively harder sidequests** (PromptLibrary → VidTutor) that build real‑world products.
+* **Guides** that show how to orchestrate AI agents instead of writing every line yourself.
+* **A learning‑goal matrix** to help you build **proof of competence** you can actually show employers.
+
+Ship → reflect → ship again. That's the loop.  
 
 ---
 
 ## 1  Repo at a Glance  
 
-| Path | What You’ll Find |
+| Path | What You'll Find |
 |-----|------------------|
 | `projects/` | 01‑05 PRDs that drive each build |
 | `guides/` | *Learning*, *Tools*, *Workflow* cheat‑sheets |
-| `goals/learning_goals.md` | 11‑chapter checklist of everything you’re expected to touch |
+| `goals/learning_goals.md` | 11‑chapter checklist of everything you're expected to touch |
 | `learning_notes/` | *You* add reflection docs here as you learn (empty by default) |
 
 ---
@@ -31,12 +34,12 @@ Ship → reflect → ship again. That’s the loop.
 
 | Account / Tool | Why |
 |---------------|-----|
-| **Replit** | Zero‑to‑CRUD cloud IDE + Agent (Project 01) |
-| **Vercel v0** | Prompt‑to‑UI generator (Projects 02‑03) |
-| **Cursor *or* Windsurf IDE** | Local AI‑powered editor for serious refactors |
+| **Replit** | Zero‑to‑CRUD cloud IDE + Agent (Project 01) |
+| **Vercel v0** | Prompt‑to‑UI generator (Projects 02‑03) |
+| **Cursor *or* Windsurf IDE** | Local AI‑powered editor for serious refactors |
 | **GitHub** | Repo hosting, PRs, portfolio proof |
 | **OpenAI / Gemini / Anthropic API keys** | The projects call GenAI endpoints |
-| *(Optional)* **Supabase** cloud org | Postgres + storage used in Projects 02‑03 |
+| *(Optional)* **Supabase** cloud org | Postgres + storage used in Projects 02‑03 |
 
 *Tip:* Keep all keys in a `.env.local` and **never** commit them.
 
@@ -45,20 +48,20 @@ Ship → reflect → ship again. That’s the loop.
 ## 3  How to Get Started (10‑Minute Sprint)  
 
 1. **Fork** this repo → `gh repo fork ...`  
-2. **Open Project 01**: `projects/01_PromptLibrary.md` (skim scope)  
+2. **Open Project 01**: `projects/01_PromptLibrary.md` (skim scope)  
 3. Paste the PRD into an LLM and discuss the project. Then build a prompt of 30 lines or less that describes 80% of UI features.
-4. Spin up Replit Agent** → Paste your prompt, watch the agent build.
+4. Spin up Replit Agent→ Paste your prompt, watch the agent build.
 5. Iterate a few times until you are happy with the first draft, then hit deploy.
-6. Download the code, open the repo in Cursor and ask: “Explain the folder structure.”  
+6. Download the code, open the repo in Cursor and ask: "Explain the folder structure."  
 7. Create `notes/learning_reflection.md` and log what you just learned.
 
-That’s the pattern you’ll repeat—only the tech and complexity change.
+That's the pattern you'll repeat—only the tech and complexity change.
 
 ---
 
 ## 4  Course Roadmap (Ultra‑Compact)
 
-| # | Project | New Hard Thing |
+| # | Sidequest | New Hard Thing |
 |:-:|---------|----------------|
 | 01 | **PromptLibrary** | First AI‑built CRUD |
 | 02 | **PBLab** | Relational schema + RBAC |
