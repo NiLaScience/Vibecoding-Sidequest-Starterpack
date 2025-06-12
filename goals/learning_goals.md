@@ -327,7 +327,7 @@ This chapter explores how to leverage external services and APIs to add function
 
 ### 10.3 Open Source Engagement
 - [ ] [[notes/What_is_open_source_software_.md|What is open source software?]]
-  - What is open source license?
+  - What is an open source license?
 
 ---
 

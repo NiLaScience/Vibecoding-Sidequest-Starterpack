@@ -1,4 +1,4 @@
-# Vibecoding Starter Pack 🌀  
+# Vibecoding Starter Pack  
 *AI‑First Development, distilled to the essentials*
 
 ---
@@ -23,7 +23,7 @@ Ship → reflect → ship again. That’s the loop.
 | `projects/` | 01‑05 PRDs that drive each build |
 | `guides/` | *Learning*, *Tools*, *Workflow* cheat‑sheets |
 | `goals/learning_goals.md` | 11‑chapter checklist of everything you’re expected to touch |
-| `notes/` | *You* add reflection docs here as you learn (empty by default) |
+| `learning_notes/` | *You* add reflection docs here as you learn (empty by default) |
 
 ---
 
