@@ -1,4 +1,3 @@
-```md
 # 02_PBLab – Problem-Based Learning LMS  
 _Product-Requirements Document (PRD)_
 
@@ -214,4 +213,3 @@ _The following items from_ `combined_structure.md` _are primarily exercised_:
 ---
 
 ### 🔑  PBLab delivers a purpose-driven CRUD experience with rich relational data, role-based access, and ethical AI integration—perfectly aligned with the course’s AI-first philosophy.
-```

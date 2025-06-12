@@ -1,4 +1,3 @@
-```md
 # 01_PromptLibrary – Prompt-Management App  
 _Product-Requirements Document (PRD)_
 
@@ -142,4 +141,3 @@ CREATE TABLE prompts (
 ---
 
 ### 🔑  *PromptLibrary* gives learners an immediate win: a useful personal tool, a gentle introduction to full-stack concepts, and a safe playground for AI-assisted coding—all in under an hour of guided building.
-```

@@ -1,4 +1,3 @@
-```md
 # 03_EduPictionary – Real-Time Pictionary-Style Learning Game  
 _Product-Requirements Document (PRD)_
 
@@ -221,4 +220,3 @@ erDiagram
 ---
 
 ### 🔑  _EduPictionary_ pushes learners into the deep end of **real-time multiplayer web apps**, cementing skills in WebSockets, presence, game state, and rapid AI-assisted development.
-```

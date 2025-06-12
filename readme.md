@@ -1,29 +1,95 @@
-This repo is the starting point for a course on AI-first development for people with some coding experience but no development or product experience. It will consist of a fairly exhaustive lists of full-stack web development learning goals, a set of five projects designed to cover the learning goals, a tooling and workflow guide, and a series of videos covering the projects and guides.
+# Vibecoding Starter Pack 🌀  
+*AI‑First Development, distilled to the essentials*
 
-We want to teach people how to build things from scratch.
-It should make it as easy as possible to go from some coding, but 0 building products, to the first MVP.
+---
 
-It should cover basic tooling and architecture principles.
-It should not be overly long at any point. Focus on learning by doing.
-Focus on failing.
+## 0  Why This Repo Exists  
 
-Emphasize checklists, emphasize deployment over testing.
-Emphasizes low barrier to entry tooling.
+You’re here because you can code a bit but haven’t shipped a full product yet.  
+The **vibecoding** starter pack turns that gap into a sprint:
 
-Emphasis question and curiosity based learning.
+* **Five progressively harder projects** (PromptLibrary → VidTutor)  
+* **Guides** that show how to orchestrate AI agents instead of writing every line yourself  
+* **Learning‑goal matrix** so you can prove what you actually learned  
 
-We have compiled a list of questions that users should be able to answer after completing the projects.
-We can provide some brief guides to help them answer the questions, but we won't provide the answers.
-The best way to learn is to start building, run into issues, learn to deal with them, fail again, and then succeed.
+Ship → reflect → ship again. That’s the loop.  
 
-We will teach some details on AI-first development and give basic guidance on workflow, tooling, and best practices.
-We will create PRD documents for the first three projects, and create a guide on how to create PRD documents for the rest of the projects.
+---
 
-The basic workflow consists of building a UI prototype from the PRD using v0, replit, lovable, that covers ~ 80% of the UI functionality. Either in React + Vite or Next.js. This is then downloaded and used as a template for the actual project.
-The basic backend features and connections should be built automatically using AI, by creating checklists of features and then using the checklist to build the backend. We don't want to over emphasize testing, but we do want to emphasize deployment and CI/CD. 
+## 1  Repo at a Glance  
 
-PRDs should focus on user stories, features, and give guidance on key technical decisions. The users should nontheless have a lot of freedom to make decisions. We do not want to over-specify the projects, but we do want to give them a good starting point. No timelines, no strict testing requirements, no strict metrics. Features, users stories, guidance on technical decisions, a few tests-to-pass. And a quickstart guide on which templates to use, etc.
+| Path | What You’ll Find |
+|-----|------------------|
+| `projects/` | 01‑05 PRDs that drive each build |
+| `guides/` | *Learning*, *Tools*, *Workflow* cheat‑sheets |
+| `goals/learning_goals.md` | 11‑chapter checklist of everything you’re expected to touch |
+| `notes/` | *You* add reflection docs here as you learn (empty by default) |
 
-We need to create learning goals for each project and emphasizes how key technical decisions affect which challenges and learnings the user will face.
+---
 
-For the last two projects, users have to create their own PRDs. We only provide background, basic feature sets, and a quickstart guide on which templates to use, etc. In these projects, they should cover the learning goals for project management, architecting, user feedback, etc.
+## 2  What You Need Before You Start  
+
+| Account / Tool | Why |
+|---------------|-----|
+| **Replit** | Zero‑to‑CRUD cloud IDE + Agent (Project 01) |
+| **Vercel v0** | Prompt‑to‑UI generator (Projects 02‑03) |
+| **Cursor *or* Windsurf IDE** | Local AI‑powered editor for serious refactors |
+| **GitHub** | Repo hosting, PRs, portfolio proof |
+| **OpenAI / Gemini / Anthropic API keys** | The projects call GenAI endpoints |
+| *(Optional)* **Supabase** cloud org | Postgres + storage used in Projects 02‑03 |
+
+*Tip:* Keep all keys in a `.env.local` and **never** commit them.
+
+---
+
+## 3  How to Get Started (10‑Minute Sprint)  
+
+1. **Fork** this repo → `gh repo fork ...`  
+2. **Open Project 01**: `projects/01_PromptLibrary.md` (skim scope)  
+3. Paste the PRD into an LLM and discuss the project. Then build a prompt of 30 lines or less that describes 80% of UI features.
+4. Spin up Replit Agent** → Paste your prompt, watch the agent build.
+5. Iterate a few times until you are happy with the first draft, then hit deploy.
+6. Download the code, open the repo in Cursor and ask: “Explain the folder structure.”  
+7. Create `notes/learning_reflection.md` and log what you just learned.
+
+That’s the pattern you’ll repeat—only the tech and complexity change.
+
+---
+
+## 4  Course Roadmap (Ultra‑Compact)
+
+| # | Project | New Hard Thing |
+|:-:|---------|----------------|
+| 01 | **PromptLibrary** | First AI‑built CRUD |
+| 02 | **PBLab** | Relational schema + RBAC |
+| 03 | **EduPictionary** | Real‑time WebSockets & game state |
+| 04 | **PodBrain** | RAG search, embeddings, serverless pipelines |
+| 05 | **VidTutor** | Full AI video generation, payments, IaC |
+
+The hand‑holding fades; your autonomy grows.
+
+---
+
+## 5  Community & Resources  
+
+| Resource             | Link                                     |
+| -------------------- | ---------------------------------------- |
+| **Discord**          | `[placeholder – invite link]`            |
+| **Program website**  | `[placeholder – vibecoding.dev]`         |
+| **YouTube playlist** | `[placeholder – full series]`            |
+| **Blog**             | `[placeholder – medium.com/@vibecoding]` |
+| **Monthly Demo Day** | `[placeholder – Typeform]`               |
+
+Come say hi, show off builds, ask for code reviews, or drop PRs to improve the guides.
+
+---
+
+## 6  Keeping It Viby  
+
+* **Checklist > spec.** Ask an LLM to turn any fuzzy goal into 8‑10 atomic tasks.  
+* Learn the basics: Git for version control, Markdown in Obsidian for learning documentation, deploymen on Vercel or Replit.
+* **Deploy early**—every commit that hits prod boosts confidence.  
+* **Document the stumble.** Red errors become fossils of learning; write them down.  
+* **Share the win.** A 30‑sec screen‑record is marketing gold *and* portfolio ammo.
+
+Happy vibecoding!

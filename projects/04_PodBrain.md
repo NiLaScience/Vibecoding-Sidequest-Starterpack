@@ -1,4 +1,3 @@
-```md
 # 04_PodBrain – AI-Powered Podcast Explorer  
 _Scaffold PRD & Decision-Guide_
 
@@ -183,4 +182,3 @@ A runnable, deployed **PodBrain MVP** that ingests at least one public RSS feed,
 4. Record a 2-minute demo video and list which learning goals you tackled
 
 Happy building!
-```

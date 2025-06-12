@@ -12,6 +12,12 @@ This learning approach allows you to build proofs of competence, rather than col
 
 This guide shows you **how to work inside the vibecoding sandbox** of proven tools, frameworks, and workflows, so you can squeeze the most learning‑per‑hour out of every stumble, refactor and deploy.
 
+Since AI-first essentially means thinking for each problem "how can I use AI to solve it?", you should embrace your favorite LLM as your learning guide and tutor. Set up a project in Claude/ChatGPT/Gemini/etc. add a system prompt that makes it respond in a style you like, and ask it a ton of questions.
+
+For each project, ask it about the PRD and the tech stack so you know what you will be dealing with. For each new concept you encounter, ask it for a explanation that fits your level of expertise. When making key technical descisions, conduct deep research queries to understand the solution space and pros and cons of each option. Only then make a decision.
+
+In fact, you should use your real and artificial brains to question everything about this guide and the projects. At any point, if you feel like you want to deviate from our suggestions, do it! Just make sure to document your learning and share it with the community.
+
 > **TL;DR** — For each project, read the PRD, slice it into phases, generate checklists, let the agent build, test & deploy early, document the learning goals you actually hit, and keep vibing forward.
 
 ---

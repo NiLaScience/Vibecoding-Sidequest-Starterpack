@@ -1,4 +1,3 @@
-```md
 # 05 _VidTutor_ – Generative Video-Tutor  
 _Guidance & Research Brief (YOU will turn this into a full PRD)_
 
@@ -173,4 +172,3 @@ Feel free to collapse / merge steps, or swap Manim for another library.
 3. Open a pull request and tag a mentor for feedback before you start coding.
 
 Good luck—push the frontier! 🚀
-```
