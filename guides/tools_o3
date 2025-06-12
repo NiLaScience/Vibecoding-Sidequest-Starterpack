@@ -1,0 +1,199 @@
+# AI-First Development Toolkit (June 2025, Rev 3)
+
+*A vibecoder’s cheat‑sheet for building with AI-native tools first and refactoring later.*
+
+---
+
+## Contents
+
+1. **Core Agentic Workspaces**
+
+   * Replit Agent
+   * Cursor IDE
+   * Windsurf IDE
+   * Claude Code (CLI)
+2. **Generative UI & App Builders**
+   * Vercel v0
+3. **Backend & Data Platforms**
+   * Supabase "AI‑Native" Stack
+   * Firebase
+4. **Additional Tools to Watch (quick bites)**
+5. **Learning Hacks**
+6. **Changelog**
+
+---
+
+## 1. Core Agentic Workspaces
+
+### 1.1 Replit Agent
+
+*What it is*  An end-to-end, prompt-to-app builder. Give it a natural-language prompt, screenshot or Figma file, and the Agent scaffolds, codes, fixes bugs and deploys in the same cloud workspace. Standard designs come out looking generic, so craft solid design prompts.
+
+Note: Uses **React + Vite** by default – fast build+deploy with minimal linter noise.
+
+*Highlights*
+
+* Built‑in Postgres‑compatible DB, Auth, key vault and deployments.
+* Screenshot‑to‑code and "Import from GitHub".
+* Very easy to deploy, even after downloading the code and tweaking it in Cursor.
+* Full file explorer, VS‑Code‑style editor, terminal, and chat.
+* **Agent Entrypoints** surface next to failing tests/logs for one‑click self‑debug (May 2025). citeturn3search0
+* **Visual Editor** provides WYSIWYG React component editing synced to code (May 2025). citeturn3search1
+
+*Best for* Building MVPs and prototypes—UI + CRUD that actually runs.
+
+*Learning Hacks* Since Replit apps follow a standard structure, let the Agent build, download the repo, and ask the Cursor agent to explain the structure, individual files, and best practices.
+
+---
+
+### 1.2 Cursor IDE
+
+*Tagline* "The AI code editor." Fork of VS Code with many LLM APIs built in.
+
+*Highlights*
+
+* Chat & Composer modes; use `@` tags to pull docs, markdown, or diff context.
+* Agent Mode can browse web, run terminal commands, and open PRs.
+* Tab completion is blazing fast and context‑aware.
+* Full VS Code marketplace and keyboard shortcuts.
+
+*Learning Hacks*
+
+* Learn terminal, explorer, and Git basics.
+* Load a project and ask the agent to explain structure, files, and best practices.
+
+---
+
+### 1.3 Windsurf IDE
+
+*What it is* The first **agentic IDE**. Its Cascade engine builds a semantic graph of your repo and performs multi‑file edits/tests autonomously.
+
+*Highlights*
+
+* Smooth UX & highly theme‑able UI.
+* **Supercomplete** diff‑preview suggestions.
+* Very economical model options.
+* On‑prem / zero‑retention deploys for regulated orgs.
+* In acquisition talks with OpenAI for \~\$3 B (April 2025), raising expectations of deep GPT integration. citeturn4search0
+
+---
+
+### 1.4 Claude Code (CLI)
+
+*Tagline* Anthropic’s command‑line coding agent—immensely autonomous and powerful.
+
+*Note* Running it in Cursor or Windsurf terminals helps beginners tame its speed.
+
+*Key commands*
+
+| Command   | Purpose                                    |
+| --------- | ------------------------------------------ |
+| `/init`   | Generate `CLAUDE.md` project guide         |
+| `/plan`   | Outline a multi‑step change before editing |
+| `/review` | AI code review of staged diffs             |
+| `/memory` | Edit long‑term project memory              |
+| `-p`      | One‑shot "just do X" mode                  |
+
+*Highlights*
+
+* 200k‑token context (Claude 4).
+* Supports bash, git, browser tool calls.
+* Cost tracking and run‑time summaries.
+* GA in Anthropic **Pro/Max** plans (May 2025).
+
+---
+
+## 2. Generative UI & App Builders
+
+### 2.1 Vercel v0
+
+*What it is*  An AI UI generator that turns prompts into React/Tailwind/shadcn components with a live sandbox and 1‑click Vercel deploy.
+
+This template is a good start: [https://v0.dev/community/next-js-shadcn-ui-ujvXoiAFlxG](https://v0.dev/community/next-js-shadcn-ui-ujvXoiAFlxG)
+
+*Note*: v0 leans on the Vercel ecosystem (Next.js, Vercel AI SDK). Great for polished prototypes, but not everyone loves Next.js and Vercel’s perf limits. Back‑end & debugging weaker than Replit.
+
+*Highlights*
+
+* Generates professional‑looking UI with decent customization.
+* Accepts screenshots or Figma imports; generates assets.
+* Team sharing & fork‑based collaboration.
+* GitHub & Supabase integrations.
+
+*Best for* Design‑heavy front‑end prototyping when you still want clean, ownable code.
+
+*Learning Hacks* Build at least one Next.js app to learn SSR, routing, etc.; then download and explore with Cursor.
+
+---
+
+## 3. Backend & Data Platforms
+
+### 3.1 Supabase "AI‑Native" Stack
+
+Supabase is a Postgres platform with AI‑assisted features for full backend functionality (auth, storage, realtime, vector search, cron, edge functions).
+
+*Highlights*
+
+* Essential part of the "AI‑Native" stack.
+* Docker for local development.
+* Great dashboard for managing DB & services.
+
+*Key 2025 modules*
+
+1. **AI Assistant v2** – project‑aware chat + inline SQL/Cron help.
+2. **Supabase Vecs** – pgvector + embeddings refresh pipelines.
+3. **Cron** – pg\_cron UI.
+4. **Queues** – durable `pgmq` message queues.
+5. **Edge Functions** – Deno 2.1, import maps.
+6. **Dedicated Pooler** – PgBouncer txn + session mode.
+
+*Note*: Frequent schema changes are easier in "development mode" NoSQL (e.g., Firebase) than migration‑heavy Postgres.
+
+---
+
+### 3.2 Firebase
+
+Comprehensive platform for mobile & web apps.
+
+*Major pieces (May 2025)*
+
+* **Firestore** NoSQL DB.
+* Storage, Functions, Auth, Realtime, Hosting.
+* **AI Logic SDKs** – client access to Gemini & Imagen with App Check.
+* **Gemini in Firebase** – console assistant, Crashlytics debugging, Data Connect schema/chat generation, FCM campaign insights, App Testing agent.
+* **Genkit** – server‑side AI orchestration (JS, Go, Python beta).
+* **Firebase Studio** – browser IDE + Gemini 2.5 prototyping agent.
+
+*Why it matters* Hybrid on‑device inference (Gemini Nano) & strict quotas make it production‑ready.
+
+---
+
+## 4. Additional Tools to Watch (quick bites)
+
+| Tool                                  | TL;DR                                                                                                                                                     |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GitHub Copilot Workspace / Spaces** | Copilot‑native env to brainstorm → plan → multi‑file PRs. Technical preview open to paying users; Spaces GA June 4 2025. citeturn2search0turn2search6 |
+| **Cline**                             | Autonomous AI coding agent for VS Code; handles whole repos. v3.3 (Feb 2025) adds security & customization. citeturn0search0turn0search6              |
+| **Lovable.dev**                       | Chat‑first full‑stack builder; imports Figma, integrates Supabase/GitHub; 2025 enterprise tier launched. citeturn0search1turn0search4turn0search7    |
+| **Amazon Q Developer**                | AWS console assistant & end‑to‑end code pipeline agent; GA April 2025 with state‑of‑the-art SWTBench scores. citeturn1search0turn1search2             |
+| **Bolt.new**                          | StackBlitz WebContainers + AI for full‑stack dev in‑browser; install packages & run backends right in the tab. citeturn0search2turn0search5           |
+
+---
+
+## 5. Learning Hacks (universal)
+
+1. **Explain before you edit** – ask your agent to translate unknown code into plain English.
+2. **Write the tests first** – agents generate tests; let them find bugs early.
+3. **Freeze & fork** – save working checkpoints before big agent runs.
+4. **Think in prompts** – clear, constraint‑driven prompts beat vague instructions.
+5. **Mix & match** – Replit for scaffolding, Claude Code for deep refactors, Warp or Bolt for quick CLI fixes.
+
+---
+
+## 6. Changelog
+
+| Date       | Change                                                                                                                      |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2025‑06‑12 | **Rev 3** – Restored all original details, kept new structure, updated Additional Tools per request, added fresh citations. |
+
+*Last updated • June 12 2025*
