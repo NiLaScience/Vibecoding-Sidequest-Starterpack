@@ -181,7 +181,7 @@ erDiagram
 ---
 
 ## 10. Focused Learning-Goal Subset  
-_The following items from_ `combined_structure.md` _are primarily exercised_:  
+_The following items from_ `learning_goals.md` _are primarily exercised_:  
 
 **Chapter 2** – Version Control, Package Management, Linting, Template/Boilerplate, Env Variables, Unit & Integration Testing  
 **Chapter 3** – Monorepo (optional), Route, API, CRUD, JSON, State Management (Context/Zustand)  

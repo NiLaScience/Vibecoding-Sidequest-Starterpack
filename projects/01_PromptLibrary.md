@@ -111,9 +111,9 @@ CREATE TABLE prompts (
    * Ask Cursor Agent: “Explain the project architecture file-by-file.”  
    * Refactor names, add comments, experiment.  
 7. **Document learning goals**
-    - go through the combined_structure.md file and select which items you encountered in this project.
+    - go through the learning_goals.md file and select which items you encountered in this project.
     - create .md notes for each learning goal covered in this project.
-    - if you encountered any other learnings not covered in the combined_structure.md file, create .md notes for them.
+    - if you encountered any other learnings not covered in the learning_goals.md file, create .md notes for them.
 8. **Share your Proof-of-Competence**
     - create and share a thread or video of you using the app and sharing your learnings.
     - put your repo on your github profile and share with people.
@@ -121,7 +121,7 @@ CREATE TABLE prompts (
 ---
 
 ## 9. Focused Learning-Goal Subset  
-(from `combined_structure.md`)
+(from `learning_goals.md`)
 
 | Chapter | Items Exercised |
 |---------|-----------------|

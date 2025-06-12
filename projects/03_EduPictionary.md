@@ -180,13 +180,13 @@ erDiagram
    • Open two tabs, play a round, record 60-second GIF for proof.  
 
 5. **Document Learning**  
-   • Map covered items from *combined_structure.md*.  
+   • Map covered items from *learning_goals.md*.  
    • Write short blog / video explaining real-time architecture.  
 
 ---
 
 ## 9. Focused Learning-Goal Subset  
-(from `combined_structure.md`)
+(from `learning_goals.md`)
 
 | Chapter | Items Exercised |
 |---------|-----------------|
