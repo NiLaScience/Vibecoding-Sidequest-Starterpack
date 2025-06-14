@@ -3,13 +3,21 @@ The only course on AI-first development that is exclusively designed to get you 
 
 More than 100 people in cohort 1 of Gauntlet AI used the exact principles in this course to go from zero AI-first development experience to receiving a 200k+ job offer in 3 months.
 
-This course is going to allow anyone with some coding knowledge, but little to no experience building full-stack applications to build a portfolio of real-world applications faster than they ever thought possible.
+This course is going to allow anyone with some coding knowledge, but little to no experience building full-stack applications to build a portfolio of real-world applications faster than they ever thought possible. And the best part is, I am willing to pay you to do it. The first 3 people to complete the course will receive a 4 figure reward. But more on that later.
 
-And it all comes down to using AI to accelerate your learning and building.
+Learning to build products in 2025 comes down to using AI to accelerate your learning and development process.
 
 In this video, I am going to introduce the framework that underlies this course, introduce you to all the content, and send you on your first Sidequest.
 
-But first, to justify why you should stick with this course over any other courses or tutorials out there, I want to share with you the three traps most online and offline courses fall into.
+Just 6 months ago, I myself was a very mediocre coder. I was doing my PhD in Medical Data Science, writing lots of analysis script and a few small tools and data pipelines, copy pasting code from ChatGPT, building dashboards, but never really knowing how to build anything that others could use. 
+
+When OpenAI announced o3 and it's incredible performance on coding benchmarks back in December of 2024, it hit me that the time for mediocre coders was over. I became convinced that education and research were gonna change massively, so I wanted to be a part of driving this change, instead of simply being affected by it.
+
+That's why I participated in the first cohort of Gauntlet AI, spent over 80h a week for 3 months learning the AI-first engineering prinicples I will share with you in this course. Back then, there were no best practices like this, no resources, so I had to learn it the hard way. But it paid of, and I got a great job offer to build out my idea: sending people on Sidequests to learn new skills that will have direct impact on their lives. No four year degrees, just brutal efficiency to get to the frontier of new developments in AI.
+
+This course is my first step on this journey, and I can promise you that I am fully invested in making this the best course on AI-first development out there. We have created a discord community for anyone looking for advice and feedback from me and other students. We have also set up challenges for each project, where you can get feedback and see how your projects stack up against other students. And of course, as with any good sidequest, there is a bounty for the first 3 people to succesfully complete the course. They will receive a reward of $2345 dollars. Every month, we will have a demo day, where we will feature the best projects submitted in the last month.
+
+If that wasn't enough to justify why you should stick with this course over any other courses or vibecoding tutorials, I want to share with you the three traps most online and offline courses fall into.
 
 Trap 1: The consumption trap. Almost all courses out there pretend their value comes from the content they provide. That's why they make you watch hours and hours of video lectures and tutorials, have you solve exercises, and complete tests. In my opinion, this is pure infotainment. Every second you spend consuming is not spend on the number 1 most effective way to learn anything: building. And learning science agrees. Project and problem based learning are by far the most effective ways to build new knowledge and skills. That's why, in this course, you will spend 90% of your time working on real projects, pushing your comfort zone and growing your skills every minute of every day.
 
@@ -23,21 +31,24 @@ Now without further ado, let's jump into the course.
 
 As I have already alluded to, this is not a traditional video course. You are going to spend 90% of your time building and learning with AI. And if you want to, I think you could skip these videos entirely and just dive right into the first Sidequest. But I do think that that the tooling, workflow, and learning guides we put together will ease your transition into the world of AI-first development. 
 
-The truth is, that people with 0 development experience often have an easier time getting started with AI-first development than people with 10 years of experience. And the reason is that, unless you follow a structured workflow and are using the right tools at the right time, you will get worse results building with AI than you would writing all code by hand.
-
-But if you follow the workflow we are recommending, you will quickly be able to let AI write 90-100% of your code. And don't take my word for it, more than 100 people in cohort 1 of GauntletAI had exactly this experience.
-
 So how does this course work? 
 We have assembled a knowledge graph of the most important concepts in full-stack development in 2025. These are your learning goals. It's really the 80/20 of what you need to know to build real-world applications. Then, we distributed these learning goals across 5 projects, 5 real-world applications you are going to build, deploy, and document. These projects have increasing complexity, and decreasing levels of guidance. So your first two projects should be relatively straightforward to execute and let you quickly absorb the main concepts of frontend and backend development. From then on, you will be building more complex applications, and we will guide you through the process of using AI to build them and, more importantly, learning whatever concepts or skills you need to move forward independently.
 
+The truth is, that people with 0 development experience often have an easier time getting started with AI-first development than people with 10 years of experience. And the reason is that, unless you follow a structured workflow and are using the right tools at the right time, you will get worse results building with AI than you would writing all code by hand.
 
-We have prepared a workflow guide, a tooling guide, and a learning guide for the course.
+But if you follow the workflow we are recommending, you will quickly be able to let AI write 90-100% of your code. The workflow guide will allow you to get guaranteed results when using AI coding agents. It will guide you through the process of using AI to build your projects while avoiding all the mistakes that most people make when they start building with AI. It centers around the following principles:
 
-The workflow guide will allow you to get guaranteed results from your AI-first development. It will guide you through the process of using AI to build your projects while avoiding all the mistakes that most people make when they start building with AI.
+1. Extensive planning with AI, creating a project requirements document.
+2. Dividing the project into phases, focussing on one aspect of the project stack at a time.
+3. Using checklists to make sure your agent is doing exactly what you want it to do.
+4. Using workflow prompts for different stages of the building loop.
+5. Deploying early and often to avoid blowing up your codebase.
 
-The tooling guide will allow you to speed up your development by using the right tools at the right time. While there is some freedom in choosing your tools, by following our recommendations, you will get and MVP for each project in less than a day: guaranteed. And you will avoid the two most common pitfalls of AI-first development: starting from a blank page, and blowing up your codebase over time.
+Click here to watch to full video on the workflow and tooling guide.
 
-The learning guide will allow you to learn the most important concepts and skills in full-stack development in a way that is most efficient for you. It will guide you through the process of learning by doing, document your learning, and use AI as your personal tutor that is much more effective than any other learning method.
+Speaking of tooling, our guide on the topic will allow you to speed up your development by using the right tools at the right time. While there is some freedom in choosing your tools, by following our recommendations, you will get an MVP for each project in less than a day: guaranteed. And you will avoid the two most common pitfalls of AI-first development: starting from a blank page, and blowing up your codebase over time.
+
+The learning guide will share the most effective approach to absorb the most important concepts and skills in full-stack development in a way that is most efficient for you: just in time learning. It will guide you through the process of learning by doing, documenting your learning, and use AI as your personal tutor that is much more effective than any other method out there. By basing your learning on our knowledge graph that is designed to cover the 80/20 of what you need to know to build real-world applications, you will be able to learn the most important concepts and skills in full-stack development faster than you ever thought possible.
 
 Next, let's take a look at the five projects that will take you from zero to the cutting edge of AI-first development. If you manage to complete projects 4 and 5, you will be able to choose whether you want to take on a full-time job, or just take your MVPs and build them into a company. 
 
@@ -53,8 +64,6 @@ For the last two projects, you will be more independent in defining the scope an
 
 Project 4 is building a podcasting database that uses AI natively to enable users to search for relevant clips from their favorite podcasts and create supercuts. This is a really valuable application that, at least right now, does not exist anywhere and could become your jumping board to starting a company. Project 5 is even more ambitious: you will attempt to build an app that uses AI to generate educational videos that are 10x better than anything out there at the moment. We have looked at many of the existing tools that claim to do this, and decided that someone with proper knowlege of AI first development could build something better than all the competition within 2 weeks. 
 
-
-
-
 To get started, clone the github repository for this course, watch the video guides or just read through the written guides in the repo. Then, carrying all the momentum you are experiencing right now from deciding to take on this challenge, you should dive into the first project.
 
+And always remember: this is a sidequest, not a course. You are in charge of your own learning and building. I am here to guide you, but you are the one who will be doing the work. So get out there, build something, and let's see where this journey takes us. And don't worry, more than 100 people in Gauntlet AI did exactly what you are about to do, and it paid off for every single one of them.
