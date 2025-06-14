@@ -3,12 +3,20 @@
 
 ---
 
-## 0  Why This Repo Exists  
+## 0  Why This Course Exists  
 
-You're here because you know how to code but haven't shipped a full product.  
-Or maybe you have, but you see the AI wave coming and know that **competence > credentials**.
+The \#1 reason why other courses fail is because they waste your time with theoretical lessons and exercises, instead of spending 90% of your time building.
 
-The **vibecoding** starter pack is your **golden bridge to impact**.
+PmgU47CY
+
+This course is different!
+
+The goal of this course is simple: to get you paid as fast as possible. Be that by getting a job in a company, joining a startup, or turning a side project into a real business.
+
+This course is by far the fastest way to go from some coding knowledge but little to no development experience to a full portfolio of deployed projects with actual users. 
+
+This will serve as proof-of-competence to potential employers, cofounders, investors, and your online audience.
+
 It's designed to turn the gap between tutorials and shipping into a sprint:
 
 * **Five progressively harder sidequests** (PromptLibrary → VidTutor) that build real‑world products.
@@ -61,13 +69,13 @@ That's the pattern you'll repeat—only the tech and complexity change.
 
 ## 4  Course Roadmap (Ultra‑Compact)
 
-| # | Sidequest | New Hard Thing |
-|:-:|---------|----------------|
-| 01 | **PromptLibrary** | First AI‑built CRUD |
-| 02 | **PBLab** | Relational schema + RBAC |
-| 03 | **EduPictionary** | Real‑time WebSockets & game state |
-| 04 | **PodBrain** | RAG search, embeddings, serverless pipelines |
-| 05 | **VidTutor** | Full AI video generation, payments, IaC |
+|  #  | Sidequest         | New Hard Thing                               |
+| :-: | ----------------- | -------------------------------------------- |
+| 01  | **PromptLibrary** | First AI‑built CRUD                          |
+| 02  | **PBLab**         | Relational schema + RBAC                     |
+| 03  | **EduPictionary** | Real‑time WebSockets & game state            |
+| 04  | **PodBrain**      | RAG search, embeddings, serverless pipelines |
+| 05  | **VidTutor**      | Full AI video generation, payments, IaC      |
 
 The hand‑holding fades; your autonomy grows.
 
