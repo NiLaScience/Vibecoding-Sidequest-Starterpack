@@ -123,7 +123,7 @@ This chapter introduces the fundamental building blocks of web applications, inc
 - [ ] [[notes/What_is_HTML_.md|What is HTML?]]
 - [ ] [[notes/What_is_CSS_.md|What is CSS?]]
 - [ ] [[notes/What_is_JavaScript_.md|What is JavaScript?]]
-- [ ] [[notes/What_is_TypeScript_.md|What is TypeScript?]]
+- [ ] [[What_is_TypeScript|What is TypeScript?]]
 
 ### 3.3 State & Data Flow Fundamentals
 - [ ] [[notes/What_is_a_state_.md|What is a state?]]

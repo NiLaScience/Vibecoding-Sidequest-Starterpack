@@ -9,9 +9,9 @@ Instead of static assignments, PBLab structures work into the classic PBL cycle:
 2. Self-directed research & artifact creation  
 3. Post-discussion → Findings, reflection & report  
 
-PBLab stores all metadata, workflow states and comments in a relational database (Supabase/Postgres) while **leveraging Google Docs/Slides/Sheets links for rich artifacts**. LLM tools are embedded as first-class citizens (e.g. “draft learning goals”, “critique my reflection”) to encourage *responsible* AI use.
+PBLab stores all metadata, workflow states and comments in a relational database (Supabase/Postgres) while **leveraging Google Docs/Slides/Sheets links for rich artifacts**. LLM tools are embedded as first-class citizens (e.g. "deep research", "PBL tutor") to encourage *responsible* AI use.
 
-The project replaces the original “CRMagic” MVP.  It remains a **multi-user CRUD app with complex but approachable data structures**, fulfilling the same scope while feeling mission-driven and modern.
+It is highly recommeneded to conduct some research on the PBL process and how it can be best supported by software. You want to make something users would actually want to use and that provides value to them. We have included many suggestions, but doing this work is part of your development into an AI-first developer.
 
 ---
 
@@ -19,7 +19,7 @@ The project replaces the original “CRMagic” MVP.  It remains a **multi-user 
 | Persona | Goals | Pain Points |
 |---------|-------|-------------|
 | **Student** | Understand the problem, split tasks, document findings, create cool deliverables | Disjoint tools, unclear expectations, fear of “AI = cheating” |
-| **Educator / Facilitator** | Monitor teams, give feedback, grade fairly, promote critical thinking | No visibility into team process, plagiarism worries |
+| **Educator / Facilitator** | Monitor teams, give feedback, grade fairly, promote critical thinking | No visibility into team process, enforce PBL process |
 | **Course Admin** | Manage problems, cohorts, permissions | Manual setup each term |
 
 ---
@@ -30,7 +30,7 @@ The project replaces the original “CRMagic” MVP.  It remains a **multi-user 
 2. I can **read the official problem description** and **propose a problem statement** with learning goals (Markdown or Google Doc link).  
 3. I can **upload or link artifacts** (images, videos, docs, code repos) under a research phase.  
 4. I can **tag teammates on comments** to discuss artifacts asynchronously.  
-5. I can **use the “AI Coach”** to brainstorm learning goals or get critique on my reflection, with usage logged for transparency.  
+5. I can **use the “AI PBL tutor”** to brainstorm learning goals or get critique on my reflection, with usage logged for transparency.  
 6. I can **submit the final report link** and mark the project “Ready for review”.
 
 ### 3.2 Educators
@@ -48,7 +48,7 @@ The project replaces the original “CRMagic” MVP.  It remains a **multi-user 
 |---------|------|-------|
 | Team & Role management | ✅ | Students, Educators, Admins |
 | Problem lifecycle states (Pre / Research / Post / Closed) | ✅ | State machine in DB |
-| Learning-goal editor + AI “Suggestion” button | ✅ | Calls OpenAI / Gemini function |
+| AI PBL tutor enforces PBL process| ✅ | Calls OpenAI / Gemini function |
 | Artifact upload & metadata | ✅ | File to Supabase Storage OR external URL |
 | Comment threads & mentions | ✅ | Simple per-artifact thread |
 | Google Docs/Slides/Sheets link handling | ✅ | Detect & embed previews |
@@ -66,7 +66,7 @@ The project replaces the original “CRMagic” MVP.  It remains a **multi-user 
 | **DB** | **Supabase Postgres** with Prisma (optional) | SQL clarity; built-in auth & storage |
 | **Local Dev** | Supabase in **Docker Compose**; `npm run dev` for Next.js | One-command setup |
 | **Auth** | Supabase email-link auth; RBAC via RLS policies | Fast, secure |
-| **Hosting** | Vercel (app) + Supabase cloud | Matches Project 1 |
+| **Hosting** | Vercel (app) + Supabase cloud |Minimal infrastructure complexity |
 | **AI** | OpenAI functions via serverless route `/api/ai/*`; usage logged in `ai_usage` table | Simple, auditable |
 | **Integrations** | Google OAuth scopes limited to Drive read-only for file metadata | Avoids storing large files |
 
@@ -139,7 +139,10 @@ erDiagram
 
 ---
 
-## 7. Built-In AI-First Example Problems
+## 7. Built-In AI-First Example Problems. 
+
+Pre-populated your app with two example problems. If you want to impress the reviewers, think about how you can improve the app to fascilitate students to get the most out of the PBL process. It's not about making everything easier for the students, but increasing motivation to engage in the PBL process and making them creators of their own learning instead of just consumers.
+
 ### 7.1 “Outbreak Simulator” (Epidemiology)
 | Item | Description |
 |------|-------------|
@@ -163,20 +166,20 @@ erDiagram
 ## 8. Tests-to-Pass (Sample Acceptance Criteria)
 | ID | Test | How to Verify |
 |----|------|---------------|
-| **T-01** | Student can create team via UI and invite peer via email. | Cypress E2E: create → invite → peer accepts → team appears in dashboard. |
-| **T-02** | Learning-goal AI helper returns ≤ 3 suggestions and logs usage. | Jest unit: mock OpenAI → assert DB `ai_usage` row. |
+| **T-01** | Student can create team via UI and invite peer via email. | E2E test: create → invite → peer accepts → team appears in dashboard. |
+| **T-02** | PBL AI helper returns feedback but doesn't do the work for the student; logs usage. | Jest unit: mock OpenAI → assert DB `ai_usage` row. |
 | **T-03** | Artifact upload enforces file-type whitelist. | API test: upload `.exe` → 400 error. |
 | **T-04** | Educator feedback locks project editing. | E2E: add feedback → check inputs disabled. |
 
 ---
 
-## 9. Quick-Start Guide for Learners
-1. `pnpm create v0-app` → choose **PBLab** template  
-2. Clone repo, open in **Cursor** → run `pnpm dev`  
-3. `docker compose up supabase` for local DB  
-4. Copy `.env.example` → `.env.local`, add Supabase keys & OpenAI key  
-5. Push to GitHub → Vercel import → environment variables → **Deploy**  
-6. Run seed script `pnpm db:seed` to create sample problems & users  
+## 9. Quick-Start Guide
+1. Create UI scaffold and API routes for the MVP in v0
+2. Clone repo, open in **Cursor** → run `npm install, npm run dev`
+3. `docker compose up supabase` for local DB
+4. Copy `.env.example` → `.env.local`, add Supabase keys & OpenAI key. 
+5. Push to GitHub → Vercel import → environment variables → **Deploy**
+6. Create and run seed script `npm db:seed` to create sample problems & users  
 
 ---
 
@@ -199,8 +202,8 @@ _The following items from_ `learning_goals.md` _are primarily exercised_:
 ## 11. Open Questions
 1. Should rubric scoring be numeric, qualitative, or both?  
 2. How granular must AI usage logs be for academic integrity?  
-3. Do we require offline/real-time sync (CRDT) for simultaneous editing?  
-4. Accessibility (a11y) checklist for student-created artifacts?  
+3. Do we require offline/real-time sync (CRDT) for simultaneous editing?
+4. How can we best support the PBL process?
 
 ---
 
@@ -208,7 +211,7 @@ _The following items from_ `learning_goals.md` _are primarily exercised_:
 - Full LMS grade-book & attendance  
 - Real-time collaborative document editing (delegated to Google Docs)  
 - Mobile-native app (responsive web only for MVP)  
-- Push notifications (can reuse in Project 3)
+- Push notifications
 
 ---
 
