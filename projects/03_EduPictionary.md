@@ -22,22 +22,22 @@ Why this project?
 | Persona | Goals | Pain Points |
 |---------|-------|-------------|
 | **Student Player** | Play a fun game while learning subject terms | Classroom games are clunky, latency kills fun |
-| **Teacher Host** | Set up a custom word list, monitor chat, keep score | Hard to track points, prevent inappropriate words |
-| **Course Learner (developer)** | Master WebSockets & state sync | Overwhelmed by infra choices, race conditions |
+| **Teacher Host** | Set up a custom word list, monitor chat, keep score | Hard to track points, prevent inappropriate words, this should automated |
 
 ---
 
 ## 3. Core User Stories
 ### 3.1 Player
 1. Join a game via invite URL and see who else is online (presence).  
-2. Draw on a shared whiteboard when it’s my turn (mouse / touch).  
-3. Submit unlimited text guesses; see instantly if I’m correct.  
-4. View live scoreboard and round timer.  
+2. Draw on a shared whiteboard when it’s my turn (mouse / touch). Use tools to help me draw.   
+3. Submit text guesses; see instantly if I’m correct.
+4. View live scoreboard and round timer.
 
 ### 3.2 Host / Teacher
 1. Create a session with subject + grade-level word list.  
-2. Kick or mute disruptive players.  
-3. End game and export scores (CSV).  
+2. Kick or mute disruptive players. Correct wrong scoring.
+3. Send messages to all players in the session.
+4. End game, store scores for students.  
 
 ---
 
@@ -48,16 +48,20 @@ Why this project?
 | Supabase email-link auth (or anonymous w/ nickname) | ✅ | Low-friction |
 | Real-time presence list | ✅ | Supabase → `realtime.presence()` |
 | Shared whiteboard | ✅ | Broadcast strokes; see **§5 Architecture** |
-| Guess input & server-side answer check (fuzzy match) | ✅ | Levenshtein ≤ 2 |
-| Scoring & leaderboard | ✅ | +5 for first correct, −1 per wrong |
-| Round timer & next-drawer rotation | ✅ | 60 s default |
+| Guess input & server-side answer check (fuzzy match, or LLM) | ✅ | Levenshtein ≤ 2? LLM judge? |
+| Scoring & leaderboard | ✅ | Come up with a scoring system that is fair and incentivises learning. |
+| Round timer & next-drawer rotation | ✅ | 90 s default |
 | Chat channel | ✅ | Re-use Socket / Supabase channel |
 | Content moderation (bad words) | ❌ stretch | e.g. Perspective API |
-| Voice chat | ❌ | Out-of-scope |
+| Multimodal AI player | ❌ stretch | Use OpenAI's vision API to guess alongside students, extra points if students are faster than the AI |
+| Voice chat | ❌ stretch | Only for advanced developers |
 
 ---
 
 ## 5. Technical Decisions & Real-Time Architecture
+
+You have some experience building apps with AI now, so you should realize that these are mostly suggestions. You can choose a different tech stack, different realtime architecture, and build different features, if you can convince yourself and us that they serve the purpose of the project better than our recommended choices.
+
 | Area | Preferred Choice | Alternatives / Notes |
 |------|------------------|----------------------|
 | **Stack** | Next.js (App Router) + TypeScript + Tailwind | Matches previous projects |
@@ -66,8 +70,8 @@ Why this project?
 | **DB** | Supabase Postgres (rooms, users, scores, strokes snapshot) | Redis for transient strokes (stretch) |
 | **Auth** | Supabase email magic-link + anonymous fallback | Google SSO later |
 | **Hosting** | Vercel (frontend) / Supabase cloud | Fly.io for low-latency edge |
-| **Moderation** | Simple regex in MVP; optional Perspective API | — |
-| **Testing** | Vitest + Cypress component & E2E | — |
+| **Moderation** | Simple regex in MVP or optional moderation API | — |
+
 
 > **Why Supabase?** Learners already used it in Project 2; its channels + row-level security let them avoid running a custom WebSocket server.
 
@@ -161,10 +165,12 @@ erDiagram
 
 1. **Prototype UI**  
    • In V0 or Replit: “Generate a whiteboard + chat UI for EduPictionary …”  
+   • Create UI scaffold and API routes for the MVP in v0
+   • Optional: use Supabase integration in v0 to set up auth and basic DB.
    • Export / download repo zip.  
 
 2. **Move to Cursor**  
-   • `pnpm i`, set up Supabase keys (`.env.local`).  
+   • `npm install`, set up Supabase keys (`.env.local`).  
    • Use Cursor AI agent prompts:  
      - “Add supabase-js & implement presence in `/components/Presence.tsx`.”  
      - “Sync Fabric.js strokes through Supabase channel named after room code.”  
@@ -181,7 +187,8 @@ erDiagram
 
 5. **Document Learning**  
    • Map covered items from *learning_goals.md*.  
-   • Write short blog / video explaining real-time architecture.  
+   • Write short post / video explaining real-time architecture and demonstrating the app.
+   • Optional but recommended: get a group of friends, family, kids, students, etc. to play the game and record a video of them playing. This proof of competence is worth 10x more than a github repo.
 
 ---
 
@@ -211,9 +218,9 @@ erDiagram
 
 ---
 
-## 11. Out-of-Scope for MVP
+## 11. Out-of-Scope for MVP (but go crazy if you want to)
 - Voice/video chat  
-- AI auto-drawing or recognition  
+- AI auto-drawing
 - Native mobile app  
 - Tournament/league mode  
 
