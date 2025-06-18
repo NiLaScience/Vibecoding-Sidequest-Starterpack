@@ -7,8 +7,6 @@
 
 The \#1 reason why other courses fail is because they waste your time with theoretical lessons and exercises, instead of spending 90% of your time building.
 
-PmgU47CY
-
 This course is different!
 
 The goal of this course is simple: to get you paid as fast as possible. Be that by getting a job in a company, joining a startup, or turning a side project into a real business.

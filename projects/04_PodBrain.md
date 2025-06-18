@@ -3,7 +3,7 @@ _Scaffold PRD & Decision-Guide_
 
 > **💡  Purpose of this document**  
 > Project 4 is intentionally **open-ended**.  Below is a *scaffold PRD* that illustrates the minimum feature-set, architectural hints, and acceptance tests.  
-> **You** (the learner) will **clone this file**, refine every section, and own the final technical decisions.
+> **You** (the learner) will **clone this file**, refine every section, and own the final technical decisions. 
 
 ---
 
