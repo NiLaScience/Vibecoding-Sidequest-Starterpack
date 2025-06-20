@@ -1,8 +1,4 @@
-Welcome to the Workflow and Tooling Guide – Your Secret Weapon for AI-First Development!
-
-This is where I show you the exact workflow and tools that allowed over 100 people in Gauntlet AI to go from struggling with AI coding to shipping production apps in under a day. And I'm not exaggerating – by the end of this video, you'll have the blueprint that turns AI from an unpredictable assistant into a coding superpower.
-
-Let me be brutally honest with you. Six months ago, I was watching people use AI to code, and it was painful. They'd spend hours fighting with ChatGPT, getting code that didn't run, creating more bugs than features, and eventually giving up in frustration. Sound familiar? 
+This is where I show you the exact workflow and tools that allowed over 100 people in Gauntlet AI to go from struggling with AI coding to shipping production apps every week. By the end of this video, you'll have the blueprint that turns AI from an unpredictable assistant into a coding superpower.
 
 The truth is, without the right workflow and tools, AI coding is actually SLOWER than writing code by hand. That's why most developers try AI once, get burned, and go back to their old ways. But here's the thing – they're using it completely wrong.
 

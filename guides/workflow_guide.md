@@ -56,7 +56,20 @@ Create plain-text checklists (`.md`) for each new chunk of work.
    * **Current state** (key files / previous checklists)
    * **Goal** (new feature, bug details, tech decisions)
    * **Logs / errors**
-2. Ask for ~10 clear items (no code snippets). Keep it simple and atomic — the agent should finish each in <10 min.
+1. Ask for ~20 clear items (no code snippets). Keep it simple and atomic — the agent should finish each in <5 min.
+2. Use (or adapt) the following **planning prompt**:
+
+```
+We are in the process of building the project described in @PRD.md
+We are doing this by going through the phases described in @PhasePlan.md
+We are currently in stage X and have recently implemented the changes in @ChecklistX.md
+
+Please create a new plan for implementing the missing elements of phase X.
+Look around the repo and past checklists to understand the current project.
+Then create a .md checklist with ~20 items that will allow us to make the most progress towards finishing the current phase. Keep the items simple and use max 2 layers of hierarchy. Do not put in any code snippets.
+```
+
+
 3. Use (or adapt) the following **workflow prompt**:
 
 ```
@@ -92,10 +105,43 @@ Deploy **early & often**. Treat deployment like saving in a video game — the m
 
 Templates beat ad-hoc chat:
 
+* **Planning prompt** (above) – converts a fuzzy goal into a clear checklist.
 * **Workflow prompt** (above) – drives the checklist loop.
-* **Planning prompt** – converts a fuzzy goal into a clear checklist.
 * **Debugging prompt** – asks the agent to locate, reproduce, and patch a bug.
+
+```
+We are currently in stage X and have recently implemented the changes in @ChecklistX.md
+
+While implementing {checklist_item} we have encountered the following error/problem:
+
+{paste error message/description/logs}
+
+We have already tried fixing it with the following approaches:
+
+{Ask agent to describe what it already tried and why it didn't work}
+
+Please look at all the relevant context before proposing a plan how to fix this issue.
+
+There is a high likelyhood that part of the problem is that we have overcomplicated this. There is probably a very simple fix that any requires taking a step back to find it.
+
+Propose 3 approaches to fix the issue, and ask for any additional context, logs, or experiments that we can run to improve your guess.
+
+Then choose the most likely reason for our problem and put it on top of your plan.
+```
+
 * **Testing prompt** – scaffolds unit or e2e tests before writing code.
+
+```
+We are currently in stage X and have recently implemented the changes in @ChecklistX.md
+
+I want to make sure everything works properly.
+
+Please conduct a simple set of tests, either by creating a testing skript or simply by testing API routes and backend features via your terminal.
+
+I am looking for the simplest, most straightforward confirmation that everything works. We are building an MVP here, not Google core infrastructure.
+
+Execute the tests right away, and report back to me with any issues.
+```
 
 Feel free to improvise, but a consistent core set reduces variance.
 
