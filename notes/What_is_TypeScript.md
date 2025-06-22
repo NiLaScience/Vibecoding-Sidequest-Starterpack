@@ -1,1 +1,0 @@
-Typescript makes sure the lego pieces fit together 

@@ -8,7 +8,7 @@
 The repo you just cloned is **not** a linear tutorial.  
 It is a *toolbox* plus five progressively harder projects that push you to orchestrate AI coding agents, ship real software, and reflect on what you learn. 
 
-This learning approach allows you to build proofs of competence, rather than collecting credentials. By deploying the software you will be building, documenting your learning, and sharing your journey and developing expertise online, you will create an extensive portfolio. This can be used to impress potential employers and build confidence in your ability to complete full projects, which might even lead to founding your own startup.
+This learning approach allows you to build proofs of competence, rather than collecting credentials. By deploying the software you will be building, documenting your learning, and sharing your journey and developing expertise online, you will create an extensive portfolio. This can be used to impress potential employers and build confidence in your ability to complete full projects, which might even lead to founding your own startup, but at least gaining some visibility in the community.
 
 This guide shows you **how to work inside the vibecoding sandbox** of proven tools, frameworks, and workflows, so you can squeeze the most learning‑per‑hour out of every stumble, refactor and deploy.
 
@@ -41,58 +41,17 @@ flowchart TD
 
 ## 2  Core Principles  
 
-| Principle                  | What It Means in Practice                                                                                  |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **AI‑First**               | Treat Replit Agent, Cursor, Windsurf, Claude Code, etc. as junior devs you orchestrate.                    |
-| **Learning By Shipping**   | "It runs in prod" beats perfect test coverage.                                                             |
-| **Checklists > Specs**     | LLMs execute atomic tasks better than vague paragraphs. Use reasoning models to build plans and checklists |
-| **Fail → Debug → Explain** | Every red error is a learning goal fossil—dig it up, write it down, move on.                               |
-| **Document The Journey**   | `.md` notes, demo videos, tweets, repos: your future job interview ammo.                                   |
+| Principle                  | What It Means in Practice                                                                                                                                                          |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI‑First**               | Treat Replit Agent, Cursor, Windsurf, Claude Code, etc. as junior devs you orchestrate.<br>Treat reasoning models as your private tutors that help you make your vision a reality. |
+| **Learning By Shipping**   | "It runs in prod" beats perfect test coverage.                                                                                                                                     |
+| **Checklists > Specs**     | Coding agents execute atomic tasks better than vague paragraphs. Use reasoning models to build plans and checklists                                                                |
+| **Fail → Debug → Explain** | Every red error is a learning goal fossil—dig it up, write it down, move on.                                                                                                       |
+| **Document The Journey**   | `.md` notes, demo videos, tweets, repos: your future job interview ammo.                                                                                                           |
 
 ---
 
-## 3  The Vibecoding Loop  
 
-1. **Absorb the PRD**  
-   *Skim the vision, user stories & cut‑lines.*  
-2. **Phase the Work**  
-   Split the PRD into 2‑to‑4 hour "mini‑milestones" (UI scaffold, DB schema, auth, etc.).  
-3. **Checklist It**  
-   Drop a *Planning Prompt* into your agent:  
-```
-
-Create a 10‑item checklist (no code) to finish ⭐ [phase]⭐.
-
-```
-4. **Agentic Execution**  
-Let the agent tackle each unchecked box. Intervene, test, commit.  
-5. **Deploy Early**  
-Replit "Deploy", Vercel Preview, Firebase Hosting—whatever ships fastest.  
-6. **Reflect & Map**  
-After each milestone open `learning_goals.md` and mark which bullets you *actually* touched. Jot a quick note or screenshot.  
-7. **Rinse & Repeat**  
-
-```
-
-PRD → Phase → Checklist → Agent → Test/Deploy → Reflect
-
-```
-
----
-
-## 4  Tooling Cheat‑Sheet (Super Condensed)  
-
-| Need                            | Tool             | 1‑Line Tip                                            |
-| ------------------------------- | ---------------- | ----------------------------------------------------- |
-| Zero‑to‑CRUD in the browser     | **Replit Agent** | Start Project 01 entirely here.                       |
-| Local deep dives & git wizardry | **Cursor IDE**   | Import repo, ask "Explain folder structure."          |
-| Semantic codebase edits         | **Windsurf**     | Great for "rename model, update everywhere".          |
-| Autonomous terminal hacker      | **Claude Code**  | Run inside Cursor's terminal for observability.       |
-| Design‑heavy UI                 | **Vercel v0**    | Prompt "Dashboard with sidebar & dark mode" → export. |
-| Postgres + Realtime + Vec       | **Supabase**     | Projects 02 & 03 default backend.                     |
-| NoSQL + Edge Functions + Gemini | **Firebase**     | Projects 04 & 05 showcase AI pipelines.               |
-
-👉  Full details live in `guides/tools_synthesized.md`.
 
 ---
 

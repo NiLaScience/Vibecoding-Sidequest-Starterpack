@@ -21,26 +21,26 @@
 This chapter addresses the non-technical but crucial aspects of building and launching an MVP, including product definition, marketing, and legal considerations.
 
 ### 1.1 Product Strategy & Definition
-- [ ] [[notes/What_is_an_MVP_.md|What is an MVP?]]
-- [ ] [[notes/What_is_a_product_requirements_document__PRD__.md|What is a product requirements document (PRD)?]]
+- [ ] [[learning_notes/What is an MVP.md|What is an MVP?]]
+- [ ] [[learning_notes/What is a product requirements document (PRD).md|What is a product requirements document (PRD)?]]
   - What is a user story?
   - What are key technical decisions?
 
 ### 1.2 Web Presence & Marketing
-- [ ] [[notes/What_is_a_landing_page_.md|What is a landing page?]]
-- [ ] [[notes/What_is_SEO_.md|What is SEO?]]
+- [ ] [[learning_notes/What is a landing page.md|What is a landing page?]]
+- [ ] [[learning_notes/What is SEO.md|What is SEO?]]
   - What is a sitemap?
   - What are meta tags?
 
 ### 1.3 Legal, Compliance & Data Protection
-- [ ] [[notes/What_are_legal_policies_.md|What are legal policies?]]
+- [ ] [[learning_notes/What are legal policies.md|What are legal policies?]]
   - What is a privacy policy?
   - What are terms of service?
-- [ ] [[notes/What_is_data_protection_.md|What is data protection?]]
+- [ ] [[learning_notes/What is data protection.md|What is data protection?]]
   - What is GDPR?
 
 ### 1.4 User Engagement & Feedback
-- [ ] [[notes/What_is_user_feedback_.md|What is user feedback?]]
+- [ ] [[learning_notes/What is user feedback.md|What is user feedback?]]
 
 ---
 
@@ -49,7 +49,7 @@ This chapter addresses the non-technical but crucial aspects of building and lau
 This chapter focuses on the tools and practices that streamline the development process, from version control and package management to debugging and testing.
 
 ### 2.1 Version Control & Collaboration
-- [ ] [[notes/What_is_version_control_.md|What is version control?]]
+- [ ] [[learning_notes/What is version control.md|What is version control?]]
   - What is GitHub?
     - What is a commit?
     - What is a pull request?
@@ -58,49 +58,49 @@ This chapter focuses on the tools and practices that streamline the development 
     - What is .gitignore?
 
 ### 2.2 Package Management
-- [ ] [[notes/What_are_package_managers_.md|What are package managers?]]
+- [ ] [[learning_notes/What are package managers.md|What are package managers?]]
   - What is npm?
   - What is package.json?
 
 ### 2.3.1 IDEs & Editors
-- [ ] [[notes/What_is_an_IDE_.md|What is an IDE?]]
+- [ ] [[learning_notes/What is an IDE.md|What is an IDE?]]
   - What is VS Code?
   - What is Cursor?
   - What is Windsurf?
 
 ### 2.3.2 AI-Powered Development Tools
-- [ ] [[notes/What_are_AI_developer_tools_.md|What are AI developer tools?]]
+- [ ] [[learning_notes/What are AI developer tools.md|What are AI developer tools?]]
   - What is a coding agent?
   - What is Replit? (AI context)
   - What is V0?
   - What is Gemini?
   - What is Claude?
   - What is O3?
-- [ ] [[notes/What_is_a_checklist_workflow_.md|What is a checklist workflow?]]
+- [ ] [[learning_notes/What is a checklist workflow.md|What is a checklist workflow?]]
 
 
 ### 2.4 Development Utilities
-- [ ] [[notes/What_is_logging_.md|What is logging?]]
-- [ ] [[notes/What_is_a_CLI_toolkit_.md|What is a CLI toolkit?]]
-- [ ] [[notes/What_is_an_SDK_.md|What is an SDK?]]
-- [ ] [[notes/What_are_DevTools_.md|What are DevTools?]]
-- [ ] [[notes/What_is_debugging_.md|What is debugging?]]
-- [ ] [[notes/What_is_error_handling_.md|What is error handling?]]
+- [ ] [[learning_notes/What is logging.md|What is logging?]]
+- [ ] [[learning_notes/What is a CLI toolkit.md|What is a CLI toolkit?]]
+- [ ] [[learning_notes/What is an SDK.md|What is an SDK?]]
+- [ ] [[learning_notes/What are DevTools.md|What are DevTools?]]
+- [ ] [[learning_notes/What is debugging.md|What is debugging?]]
+- [ ] [[learning_notes/What is error handling.md|What is error handling?]]
 
 ### 2.5 Code Quality & Formatting
-- [ ] [[notes/What_is_linting_.md|What is linting?]]
+- [ ] [[learning_notes/What is linting.md|What is linting?]]
   - What is ESLint?
   - What is Prettier?
 
 ### 2.6 Project Scaffolding & Configuration
-- [ ] [[notes/What_is_a_template___boilerplate_.md|What is a template / boilerplate?]]
+- [ ] [[learning_notes/What is a template boilerplate.md|What is a template / boilerplate?]]
   - What is a Next.js template?
   - What is a React + Vite template?
-- [ ] [[notes/What_are_environment_variables_.md|What are environment variables?]]
+- [ ] [[learning_notes/What are environment variables.md|What are environment variables?]]
   - What is a .env file?
 
 ### 2.7 Testing & Quality Assurance
-- [ ] [[notes/What_is_a_test_.md|What is a test?]]
+- [ ] [[learning_notes/What is a test.md|What is a test?]]
   - What is a unit test?
   - What is an integration test?
   - What is an E2E test?
@@ -112,22 +112,22 @@ This chapter focuses on the tools and practices that streamline the development 
 This chapter introduces the fundamental building blocks of web applications, including architectural paradigms, essential web technologies, and the crucial concept of application state.
 
 ### 3.1 Web Architecture & Principles
-- [ ] [[notes/What_is_a_monorepo_.md|What is a monorepo?]]
-- [ ] [[notes/What_is_client_side_vs._server_side_.md|What is client-side vs. server-side?]]
-- [ ] [[notes/What_is_a_route_.md|What is a route?]]
-- [ ] [[notes/What_is_an_API_.md|What is an API?]]
-- [ ] [[notes/What_is_CRUD_.md|What is CRUD?]]
-- [ ] [[notes/What_is_JSON_.md|What is JSON?]]
+- [ ] [[learning_notes/What is a monorepo.md|What is a monorepo?]]
+- [ ] [[learning_notes/What is client side vs. server side.md|What is client-side vs. server-side?]]
+- [ ] [[learning_notes/What is a route.md|What is a route?]]
+- [ ] [[learning_notes/What is an API.md|What is an API?]]
+- [ ] [[learning_notes/What is CRUD.md|What is CRUD?]]
+- [ ] [[learning_notes/What is JSON.md|What is JSON?]]
 
 ### 3.2 Core Web Technologies
-- [ ] [[notes/What_is_HTML_.md|What is HTML?]]
-- [ ] [[notes/What_is_CSS_.md|What is CSS?]]
-- [ ] [[notes/What_is_JavaScript_.md|What is JavaScript?]]
-- [ ] [[What_is_TypeScript|What is TypeScript?]]
+- [ ] [[learning_notes/What is HTML.md|What is HTML?]]
+- [ ] [[learning_notes/What is CSS.md|What is CSS?]]
+- [ ] [[learning_notes/What is JavaScript.md|What is JavaScript?]]
+- [ ] [[learning_notes/What is TypeScript.md|What is TypeScript?]]
 
 ### 3.3 State & Data Flow Fundamentals
-- [ ] [[notes/What_is_a_state_.md|What is a state?]]
-- [ ] [[notes/What_is_state_management_.md|What is state management?]]
+- [ ] [[learning_notes/What is a state.md|What is a state?]]
+- [ ] [[learning_notes/What is state management.md|What is state management?]]
   - What is Context?
   - What is Zustand?
   - What is Redux?
@@ -136,7 +136,7 @@ This chapter introduces the fundamental building blocks of web applications, inc
   - What is peer-to-peer state synchronization?
 
 ### 3.4 Web Protocols
-- [ ] [[notes/What_is_HTTP_.md|What is HTTP?]]
+- [ ] [[learning_notes/What is HTTP.md|What is HTTP?]]
   - What is HTTPS?
 
 ---
@@ -146,7 +146,7 @@ This chapter introduces the fundamental building blocks of web applications, inc
 This chapter introduces the high-level frameworks that structure modern web applications, combining frontend and backend concerns.
 
 ### 4.1 Full-Stack Frameworks
-- [ ] [[notes/What_is_Next.js_.md|What is Next.js?]]
+- [ ] [[learning_notes/What is Next.js.md|What is Next.js?]]
   - What is the Next.js page router?
   - What is the Next.js app router?
 
@@ -157,28 +157,28 @@ This chapter introduces the high-level frameworks that structure modern web appl
 This chapter delves into the client-side aspects of application building, focusing on user interface construction, styling, routing, and media handling.
 
 ### 5.1 Building User Interfaces
-- [ ] [[notes/What_is_React_.md|What is React?]]
-- [ ] [[notes/What_is_a_UI_library_.md|What is a UI library?]]
+- [ ] [[learning_notes/What is React.md|What is React?]]
+- [ ] [[learning_notes/What is a UI library.md|What is a UI library?]]
   - What is ShadCN?
-- [ ] [[notes/What_is_a_component_.md|What is a component?]]
-- [ ] [[notes/What_is_an_asset_.md|What is an asset?]]
+- [ ] [[learning_notes/What is a component.md|What is a component?]]
+- [ ] [[learning_notes/What is an asset.md|What is an asset?]]
 
 ### 5.2 Styling & Responsive Design
-- [ ] [[notes/What_is_Tailwind_CSS_.md|What is Tailwind CSS?]]
-- [ ] [[notes/What_is__mobile__responsive_design_.md|What is (mobile) responsive design?]]
+- [ ] [[learning_notes/What is Tailwind CSS.md|What is Tailwind CSS?]]
+- [ ] [[learning_notes/What is (mobile) responsive design.md|What is (mobile) responsive design?]]
 
 ### 5.3 Client-Side Routing & Rendering
-- [ ] [[notes/What_is_a_router_.md|What is a router?]]
-- [ ] [[notes/What_are_static_pages_.md|What are static pages?]]
-- [ ] [[notes/What_are_dynamic_pages_.md|What are dynamic pages?]]
+- [ ] [[learning_notes/What is a router.md|What is a router?]]
+- [ ] [[learning_notes/What are static pages.md|What are static pages?]]
+- [ ] [[learning_notes/What are dynamic pages.md|What are dynamic pages?]]
 
 ### 5.4 Forms & User Input
-- [ ] [[notes/What_are_forms_.md|What are forms?]]
-- [ ] [[notes/What_is_form_validation_.md|What is form validation?]]
+- [ ] [[learning_notes/What are forms.md|What are forms?]]
+- [ ] [[learning_notes/What is form validation.md|What is form validation?]]
 
 ### 5.5 Media & Streaming
-- [ ] [[notes/What_is_a_media_player_.md|What is a media player?]]
-- [ ] [[notes/What_is_media_streaming_.md|What is media streaming?]]
+- [ ] [[learning_notes/What is a media player.md|What is a media player?]]
+- [ ] [[learning_notes/What is media streaming.md|What is media streaming?]]
   - What is adaptive bitrate streaming?
   - What is media CDN optimization?
 ---
@@ -188,26 +188,26 @@ This chapter delves into the client-side aspects of application building, focusi
 This chapter covers the server-side logic and infrastructure, including runtime environments, API design, real-time communication, and background processing.
 
 ### 6.1 Server-Side Fundamentals
-- [ ] [[notes/What_is_a_backend_.md|What is a backend?]]
-- [ ] [[notes/What_is_Node.js_.md|What is Node.js?]]
+- [ ] [[learning_notes/What is a backend.md|What is a backend?]]
+- [ ] [[learning_notes/What is Node.js.md|What is Node.js?]]
 
 ### 6.2 API Design & Communication
-- [ ] [[notes/What_is_REST_.md|What is REST?]]
-- [ ] [[notes/What_is_GraphQL_.md|What is GraphQL?]]
-- [ ] [[notes/What_is_CORS_.md|What is CORS?]]
-- [ ] [[notes/What_are_webhooks_.md|What are webhooks?]]
-- [ ] [[notes/What_is_file_upload_.md|What is file upload?]]
-- [ ] [[notes/What_is_rate_limiting_.md|What is rate limiting?]]
+- [ ] [[learning_notes/What is REST.md|What is REST?]]
+- [ ] [[learning_notes/What is GraphQL.md|What is GraphQL?]]
+- [ ] [[learning_notes/What is CORS.md|What is CORS?]]
+- [ ] [[learning_notes/What are webhooks.md|What are webhooks?]]
+- [ ] [[learning_notes/What is file upload.md|What is file upload?]]
+- [ ] [[learning_notes/What is rate limiting.md|What is rate limiting?]]
 
 ### 6.3 Real-Time Systems
-- [ ] [[notes/What_are_real_time_updates_.md|What are real-time updates?]]
+- [ ] [[learning_notes/What are real time updates.md|What are real-time updates?]]
   - What are WebSockets?
   - What is WebRTC?
-- [ ] [[notes/What_is_a_real_time_database_.md|What is a real-time database?]]
+- [ ] [[learning_notes/What is a real time database.md|What is a real-time database?]]
 
 ### 6.4 Background Processing
-- [ ] [[notes/What_are_cron_jobs___scheduled_tasks_.md|What are cron jobs / scheduled tasks?]]
-- [ ] [[notes/What_is_a_job_queue_.md|What is a job queue?]]
+- [ ] [[learning_notes/What are cron jobs scheduled tasks.md|What are cron jobs / scheduled tasks?]]
+- [ ] [[learning_notes/What is a job queue.md|What is a job queue?]]
 
 ---
 
@@ -216,7 +216,7 @@ This chapter covers the server-side logic and infrastructure, including runtime 
 This chapter explores various data storage solutions, from traditional relational databases to modern NoSQL options, and methods for accessing and manipulating data.
 
 ### 7.1 Relational Databases
-- [ ] [[notes/What_is_a_database_.md|What is a database?]]
+- [ ] [[learning_notes/What is a database.md|What is a database?]]
   - What is SQL?
   - What is a schema?
   - What is data modeling?
@@ -225,19 +225,19 @@ This chapter explores various data storage solutions, from traditional relationa
     - What is Supabase?
 
 ### 7.2 NoSQL & Alternative Storage
-- [ ] [[notes/What_is_a_document_store_.md|What is a document store?]]
+- [ ] [[learning_notes/What is a document store.md|What is a document store?]]
   - What is Firebase?
-- [ ] [[notes/What_is_an_object_store_.md|What is an object store?]]
+- [ ] [[learning_notes/What is an object store.md|What is an object store?]]
   - What is S3?
-- [ ] [[notes/What_is_an_in_memory_data_store_.md|What is an in-memory data store?]]
+- [ ] [[learning_notes/What is an in memory data store.md|What is an in-memory data store?]]
   - What is Redis?
 
 ### 7.3 Data Access & Manipulation
-- [ ] [[notes/What_is_an_ORM_.md|What is an ORM?]]
+- [ ] [[learning_notes/What is an ORM.md|What is an ORM?]]
   - What is Prisma?
   - What is Drizzle?
-- [ ] [[notes/What_is_a_database_migration_.md|What is a database migration?]]
-- [ ] [[notes/What_is_full_text_search___text_indexing_.md|What is full-text search / text indexing?]]
+- [ ] [[learning_notes/What is a database migration.md|What is a database migration?]]
+- [ ] [[learning_notes/What is full text search text indexing.md|What is full-text search / text indexing?]]
 
 ---
 
@@ -246,20 +246,20 @@ This chapter explores various data storage solutions, from traditional relationa
 This chapter focuses on securing applications, covering user authentication, API security, and access control mechanisms.
 
 ### 8.1 User Authentication
-- [ ] [[notes/What_is_Auth_.md|What is Auth?]]
+- [ ] [[learning_notes/What is Auth.md|What is Auth?]]
   - What is OAuth?
   - What is JWT?
   - What are API keys?
-- [ ] [[notes/What_are_cookies_.md|What are cookies?]]
-- [ ] [[notes/What_are_social_logins_.md|What are social logins?]]
+- [ ] [[learning_notes/What are cookies.md|What are cookies?]]
+- [ ] [[learning_notes/What are social logins.md|What are social logins?]]
 
 ### 8.2 API Security
-- [ ] [[notes/What_is_API_authentication_.md|What is API authentication?]]
+- [ ] [[learning_notes/What is API authentication.md|What is API authentication?]]
 
 ### 8.3 Application Security & Access Control
-- [ ] [[notes/What_is_password_security_.md|What is password security?]]
+- [ ] [[learning_notes/What is password security.md|What is password security?]]
   - What is a hash?
-- [ ] [[notes/What_is_access_protection_.md|What is access protection?]]
+- [ ] [[learning_notes/What is access protection.md|What is access protection?]]
   - What is route protection?
   - What is role-based access control (RBAC)?
 
@@ -270,40 +270,40 @@ This chapter focuses on securing applications, covering user authentication, API
 This chapter covers the essential aspects of deploying and operating applications, including hosting, cloud services, containerization, networking, and monitoring.
 
 ### 9.1 Hosting & Cloud Platforms
-- [ ] [[notes/What_is_hosting_.md|What is hosting?]]
+- [ ] [[learning_notes/What is hosting.md|What is hosting?]]
   - What is cloud hosting?
     - What is GCP, AWS, Azure?
     - What is Vercel?
     - What is Replit?
 
 ### 9.2 Containerization & Serverless
-- [ ] [[notes/What_is_a_container_.md|What is a container?]]
+- [ ] [[learning_notes/What is a container.md|What is a container?]]
   - What is Docker?
-- [ ] [[notes/What_is_serverless_.md|What is serverless?]]
+- [ ] [[learning_notes/What is serverless.md|What is serverless?]]
   - What are cloud functions?
 
 ### 9.3 Networking & Domain Management
-- [ ] [[notes/What_is_a_port_.md|What is a port?]]
-- [ ] [[notes/What_is_a_domain_name_.md|What is a domain name?]]
+- [ ] [[learning_notes/What is a port.md|What is a port?]]
+- [ ] [[learning_notes/What is a domain name.md|What is a domain name?]]
   - What is DNS?
 
 ### 9.4 Build, CI/CD & IaC
-- [ ] [[notes/What_is_a_build_process_.md|What is a build process?]]
+- [ ] [[learning_notes/What is a build process.md|What is a build process?]]
   - What is bundling?
-- [ ] [[notes/What_is_CI_CD_.md|What is CI/CD?]]
-- [ ] [[notes/What_is_infrastructure_as_code__IaC____stretch_.md|What is infrastructure as code (IaC)? (stretch)]]
+- [ ] [[learning_notes/What is CI CD.md|What is CI/CD?]]
+- [ ] [[learning_notes/What is infrastructure as code (IaC) (stretch).md|What is infrastructure as code (IaC)? (stretch)]]
 
 ### 9.5 Performance & Caching
-- [ ] [[notes/What_is_caching_.md|What is caching?]]
+- [ ] [[learning_notes/What is caching.md|What is caching?]]
   - What is a CDN?
 
 ### 9.6 Environments & Operations
-- [ ] [[notes/What_is_local_development_.md|What is local development?]]
-- [ ] [[notes/What_are_remote_environments_.md|What are remote environments?]]
+- [ ] [[learning_notes/What is local development.md|What is local development?]]
+- [ ] [[learning_notes/What are remote environments.md|What are remote environments?]]
   - What is staging?
   - What is production?
-- [ ] [[notes/What_is_monitoring___stretch_.md|What is monitoring? (stretch)]]
-- [ ] [[notes/What_is_tracing___stretch_.md|What is tracing? (stretch)]]
+- [ ] [[learning_notes/What is monitoring (stretch).md|What is monitoring? (stretch)]]
+- [ ] [[learning_notes/What is tracing (stretch).md|What is tracing? (stretch)]]
 
 ---
 
@@ -312,21 +312,21 @@ This chapter covers the essential aspects of deploying and operating application
 This chapter explores how to leverage external services and APIs to add functionality to applications, from payments and notifications to analytics.
 
 ### 10.1 External API Integrations
-- [ ] [[notes/What_are_third_party_services_.md|What are third-party services?]]
+- [ ] [[learning_notes/What are third party services.md|What are third-party services?]]
   - What is an API integration?
   - What is API documentation?
 
 ### 10.2 Common Service Integrations
-- [ ] [[notes/What_is_payment_processing___stretch_.md|What is payment processing? (stretch)]]
+- [ ] [[learning_notes/What is payment processing (stretch).md|What is payment processing? (stretch)]]
   - What is Stripe? (stretch)
-- [ ] [[notes/What_are_notifications_.md|What are notifications?]]
+- [ ] [[learning_notes/What are notifications.md|What are notifications?]]
   - What are push notifications?
   - What are in-app notifications?
-- [ ] [[notes/What_are_analytics_.md|What are analytics?]]
+- [ ] [[learning_notes/What are analytics.md|What are analytics?]]
   - What is Google Analytics?
 
 ### 10.3 Open Source Engagement
-- [ ] [[notes/What_is_open_source_software_.md|What is open source software?]]
+- [ ] [[learning_notes/What is open source software.md|What is open source software?]]
   - What is an open source license?
 
 ---
@@ -336,26 +336,26 @@ This chapter explores how to leverage external services and APIs to add function
 This chapter covers specific development paradigms like mobile app development, along with an introduction to Artificial Intelligence and Machine Learning concepts relevant to modern applications.
 
 ### 11.1 Mobile & Progressive Web Apps (stretch)
-- [ ] [[notes/What_are_mobile_apps_.md|What are mobile apps?]]
+- [ ] [[learning_notes/What are mobile apps.md|What are mobile apps?]]
   - What is a native app?
   - What is a hybrid app?
     - What is React Native?
     - What is Flutter?
-- [ ] [[notes/What_is_a_PWA_.md|What is a PWA?]]
+- [ ] [[learning_notes/What is a PWA.md|What is a PWA?]]
 
 ### 11.2 AI & Machine Learning Fundamentals
-- [ ] [[notes/What_is_a_GenAI_API_.md|What is a GenAI API?]]
+- [ ] [[learning_notes/What is a GenAI API.md|What is a GenAI API?]]
   - What is a prompt template?
   - What is prompt engineering?
   - What are structured outputs?
 
 ### 11.3 Advanced AI Concepts & Agents
-- [ ] [[notes/What_is_RAG_.md|What is RAG?]]
+- [ ] [[learning_notes/What is RAG.md|What is RAG?]]
   - What is an embedding?
   - What is a vector database?
   - What is a vector search?
   - What is memory-augmented RAG?
-- [ ] [[notes/What_is_an_AI_workflow_.md|What is an AI workflow?]]
+- [ ] [[learning_notes/What is an AI workflow.md|What is an AI workflow?]]
   - What is an AI orchestration framework?
   - What is an AI agent?
   - What is context management?

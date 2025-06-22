@@ -78,8 +78,44 @@ That's the pattern you'll repeat—only the tech and complexity change.
 The hand‑holding fades; your autonomy grows.
 
 ---
+## 5  The Vibecoding Loop  
 
-## 5  Community & Resources  
+1. **Absorb the PRD**  
+   *Skim the vision, user stories & cut‑lines.*  
+2. **Phase the Work**  
+   Split the PRD into 2‑to‑4 hour "mini‑milestones" (UI scaffold, DB schema, auth, etc.).  
+3. **Checklist It**  
+   Drop a *Planning Prompt* into your agent:  
+4. **Agentic Execution**  
+Let the agent tackle each unchecked box. Intervene, test, commit.  
+5. **Deploy Early**  
+Replit "Deploy", Vercel Preview, Firebase Hosting—whatever ships fastest.  
+6. **Reflect & Map**  
+After each milestone open `learning_goals.md` and mark which bullets you *actually* touched. Jot a quick note or screenshot.  
+7. **Rinse & Repeat**  
+
+```
+
+PRD → Phase → Checklist → Agent → Test/Deploy → Reflect
+
+```
+
+---
+
+## 6  Tooling Cheat‑Sheet (Super Condensed)  
+
+| Need                            | Tool             | 1‑Line Tip                                            |
+| ------------------------------- | ---------------- | ----------------------------------------------------- |
+| Zero‑to‑CRUD in the browser     | **Replit Agent** | Start Project 01 entirely here.                       |
+| Local deep dives & git wizardry | **Cursor IDE**   | Import repo, ask "Explain folder structure."          |
+| Semantic codebase edits         | **Windsurf**     | Great for "rename model, update everywhere".          |
+| Autonomous terminal hacker      | **Claude Code**  | Run inside Cursor's terminal for observability.       |
+| Design‑heavy UI                 | **Vercel v0**    | Prompt "Dashboard with sidebar & dark mode" → export. |
+| Postgres + Realtime + Vec       | **Supabase**     | Projects 02 & 03 default backend.                     |
+| NoSQL + Edge Functions + Gemini | **Firebase**     | Projects 04 & 05 showcase AI pipelines.               |
+
+👉  Full details live in `guides/tools_synthesized.md`.
+## 7  Community & Resources  
 
 | Resource             | Link                                     |
 | -------------------- | ---------------------------------------- |
