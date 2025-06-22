@@ -1,7 +1,7 @@
 # 03_EduPictionary – Real-Time Pictionary-Style Learning Game  
 _Product-Requirements Document (PRD)_
 
-> The **third project** is the first truly “hard” build in the course.  
+> The **third project** is the first truly "hard" build in the course.  
 > It introduces real-time collaboration, WebSockets, CRDT-style state sync, and game mechanics.  
 > Learners will **prototype UI in V0 or Replit**, then move to **Cursor** for the full-stack build.
 
@@ -9,7 +9,7 @@ _Product-Requirements Document (PRD)_
 
 ## 1. Vision & Overview
 **EduPictionary** is a browser-based, multiplayer drawing & guessing game that reinforces academic vocabulary.  
-Players join a session, one player draws an educational term (e.g. “mitosis”), other players guess in real-time, and points are awarded for speed and accuracy.
+Players join a session, one player draws an educational term (e.g. "mitosis"), other players guess in real-time, and points are awarded for speed and accuracy.
 
 Why this project?
 1. **Real-time complexity** – live drawing sync, chat, presence, timers.  
@@ -29,8 +29,8 @@ Why this project?
 ## 3. Core User Stories
 ### 3.1 Player
 1. Join a game via invite URL and see who else is online (presence).  
-2. Draw on a shared whiteboard when it’s my turn (mouse / touch). Use tools to help me draw.   
-3. Submit text guesses; see instantly if I’m correct.
+2. Draw on a shared whiteboard when it's my turn (mouse / touch). Use tools to help me draw.   
+3. Submit text guesses; see instantly if I'm correct.
 4. View live scoreboard and round timer.
 
 ### 3.2 Host / Teacher
@@ -83,7 +83,7 @@ You have some experience building apps with AI now, so you should realize that t
 Player ↔ Browser   
           ║  draw/guess
           ▼ WebSocket (Supabase channel)
-      Supabase Edge —> Postgres “events” table (JSONB)
+      Supabase Edge —> Postgres "events" table (JSONB)
           ▲                       │Triggers leaderboard update
           ║                       ▼
  Other Browsers <— Broadcast —— Row & presence changes
@@ -164,7 +164,7 @@ erDiagram
 ## 8. AI-First Workflow Guide (Learner Steps)
 
 1. **Prototype UI**  
-   • In V0 or Replit: “Generate a whiteboard + chat UI for EduPictionary …”  
+   • In V0 or Replit: "Generate a whiteboard + chat UI for EduPictionary …"  
    • Create UI scaffold and API routes for the MVP in v0
    • Optional: use Supabase integration in v0 to set up auth and basic DB.
    • Export / download repo zip.  
@@ -172,8 +172,8 @@ erDiagram
 2. **Move to Cursor**  
    • `npm install`, set up Supabase keys (`.env.local`).  
    • Use Cursor AI agent prompts:  
-     - “Add supabase-js & implement presence in `/components/Presence.tsx`.”  
-     - “Sync Fabric.js strokes through Supabase channel named after room code.”  
+     - "Add supabase-js & implement presence in `/components/Presence.tsx`."  
+     - "Sync Fabric.js strokes through Supabase channel named after room code."  
 
 3. **Iterate**  
    • Implement endpoints `/api/guess`, `/api/next-round`.  
@@ -192,21 +192,56 @@ erDiagram
 
 ---
 
-## 9. Focused Learning-Goal Subset  
-(from `learning_goals.md`)
+## 9. Focused Learning Goals
+This project will give you hands-on experience with the following core concepts. Check them off in `goals/learning_goals.md` as you master them.
 
-| Chapter | Items Exercised |
-|---------|-----------------|
-| **2** – Workflow & Tooling | GitHub branches/PRs, IDEs (V0/Replit, Cursor), AI agent refactors, ESLint/Prettier |
-| **3** – Foundations | CRDT (optional), Real-time presence, Peer-to-peer sync concepts |
-| **4** – Next.js Framework | App Router, API routes |
-| **5** – Front-End | React canvas, Tailwind, Forms, Router, Media streaming (canvas) |
-| **6** – Back-End | Node.js, REST, WebSockets, Webhooks (game events), Rate limiting |
-| **7** – Data | Postgres schema, Relationships, Supabase Realtime, Redis (stretch) |
-| **8** – Auth & Security | Supabase auth, RBAC policies, Route protection |
-| **9** – Infra & Deployment | Vercel hosting, Supabase cloud, Docker (optional local), Monitoring/Tracing basics |
-| **10** – Integrations | Third-party bad-word API (stretch) |
-| **11** – Specialized | Real-time systems, optional vector search for drawing recognition (future) |
+### Chapter 2: Development Workflow, Tooling & QA
+- [[learning_notes/What is version control.md|What is version control?]]
+- [[learning_notes/What are AI developer tools.md|What are AI developer tools?]]
+- [[learning_notes/What is linting.md|What is linting?]]
+
+### Chapter 3: Foundational Concepts & Core Technologies
+- [[learning_notes/What is state management.md|What is state management?]]
+- [[learning_notes/What is a CRDT (Conflict-free Replicated Data Type).md|What is a CRDT (Conflict-free Replicated Data Type)?]]
+- [[learning_notes/What is real-time presence.md|What is real-time presence?]]
+- [[learning_notes/What is peer-to-peer state synchronization.md|What is peer-to-peer state synchronization?]]
+
+### Chapter 4: Full-Stack Frameworks
+- [[learning_notes/What is Next.js.md|What is Next.js?]]
+
+### Chapter 5: Front-End Development
+- [[learning_notes/What is React.md|What is React?]]
+- [[learning_notes/What is a router.md|What is a router?]]
+- [[learning_notes/What are forms.md|What are forms?]]
+- [[learning_notes/What is media streaming.md|What is media streaming?]]
+
+### Chapter 6: Back-End Development
+- [[learning_notes/What is REST.md|What is REST?]]
+- [[learning_notes/What are WebSockets.md|What are WebSockets?]]
+- [[learning_notes/What are real-time updates.md|What are real-time updates?]]
+- [[learning_notes/What is rate limiting.md|What is rate limiting?]]
+
+### Chapter 7: Data Storage & Management
+- [[learning_notes/What is a database.md|What is a database?]]
+- [[learning_notes/What is Postgres.md|What is Postgres?]]
+- [[learning_notes/What is an in-memory data store.md|What is an in-memory data store?]]
+
+### Chapter 8: Authentication & Security
+- [[learning_notes/What is Auth.md|What is Auth?]]
+- [[learning_notes/What is route protection.md|What is route protection?]]
+- [[learning_notes/What is role-based access control (RBAC).md|What is role-based access control (RBAC)?]]
+
+### Chapter 9: Infrastructure & Deployment
+- [[learning_notes/What is hosting.md|What is hosting?]]
+- [[learning_notes/What is Docker.md|What is Docker?]]
+- [[learning_notes/What is monitoring (stretch).md|What is monitoring? (stretch)]]
+
+### Chapter 10: Third-Party Integrations & Services
+- [[learning_notes/What are third-party services.md|What are third-party services?]]
+
+### Chapter 11: Specialized Development & AI
+- [[learning_notes/What is an AI agent.md|What is an AI agent?]]
+- [[learning_notes/What is vector search.md|What is vector search?]]
 
 ---
 

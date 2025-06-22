@@ -137,19 +137,58 @@ _Add custom sub-collections or fields as needed._
 
 ---
 
-## 9. Focused Learning-Goal Subset
+## 9. Focused Learning Goals
+This project will give you hands-on experience with the following core concepts. Check them off in `goals/learning_goals.md` as you master them.
 
-| Chapter | Key Items Practised |
-|---------|--------------------|
-| **2** Workflow & Tooling | Git branches, CI/CD via Firebase CLI, AI agents in Cursor |
-| **3** Foundations | API routes, CRUD, JSON |
-| **5** Front-End | React components, media player, forms |
-| **6** Back-End | REST/Edge Functions, Webhooks for RSS updates |
-| **7** Data | Firestore NoSQL, Object Storage, Embedding index |
-| **8** Auth & Security | Firebase Auth, Rules, RBAC (read/write access) |
-| **9** Infra & Deployment | Firebase Hosting, Cloud Functions, optional Docker |
-| **10** Integrations | RSS parsing, Gemini APIs, FFmpeg (optional) |
-| **11** AI Advanced | Embeddings, RAG search, summarisation pipeline |
+### Chapter 2: Development Workflow, Tooling & QA
+- [[learning_notes/What is CI CD.md|What is CI/CD?]]
+- [[learning_notes/What are AI developer tools.md|What are AI developer tools?]]
+
+### Chapter 3: Foundational Concepts & Core Technologies
+- [[learning_notes/What is an API.md|What is an API?]]
+- [[learning_notes/What is CRUD.md|What is CRUD?]]
+- [[learning_notes/What is JSON.md|What is JSON?]]
+
+### Chapter 5: Front-End Development
+- [[learning_notes/What is React.md|What is React?]]
+- [[learning_notes/What is a component.md|What is a component?]]
+- [[learning_notes/What is a media player.md|What is a media player?]]
+- [[learning_notes/What are forms.md|What are forms?]]
+
+### Chapter 6: Back-End Development
+- [[learning_notes/What is REST.md|What is REST?]]
+- [[learning_notes/What are webhooks.md|What are webhooks?]]
+- [[learning_notes/What are cron jobs scheduled tasks.md|What are cron jobs / scheduled tasks?]]
+- [[learning_notes/What is a job queue.md|What is a job queue?]]
+- [[learning_notes/What are background workers.md|What are background workers?]]
+
+### Chapter 7: Data Storage & Management
+- [[learning_notes/What is a document store.md|What is a document store?]]
+- [[learning_notes/What is an object store.md|What is an object store?]]
+- [[learning_notes/What is full-text search text indexing.md|What is full-text search / text indexing?]]
+
+### Chapter 8: Authentication & Security
+- [[learning_notes/What is Auth.md|What is Auth?]]
+- [[learning_notes/What is role-based access control (RBAC).md|What is role-based access control (RBAC)?]]
+
+### Chapter 9: Infrastructure & Deployment
+- [[learning_notes/What is hosting.md|What is hosting?]]
+- [[learning_notes/What is serverless.md|What is serverless?]]
+- [[learning_notes/What is infrastructure as code (IaC) (stretch).md|What is infrastructure as code (IaC)? (stretch)]]
+- [[learning_notes/What is monitoring (stretch).md|What is monitoring? (stretch)]]
+
+### Chapter 10: Third-Party Integrations & Services
+- [[learning_notes/What are third-party services.md|What are third-party services?]]
+- [[learning_notes/What is an API integration.md|What is an API integration?]]
+- [[learning_notes/What is payment processing (stretch).md|What is payment processing? (stretch)]]
+
+### Chapter 11: Specialized Development & AI
+- [[learning_notes/What is a GenAI API.md|What is a GenAI API?]]
+- [[learning_notes/What is RAG.md|What is RAG?]]
+- [[learning_notes/What is an embedding.md|What is an embedding?]]
+- [[learning_notes/What is a vector database.md|What is a vector database?]]
+- [[learning_notes/What is vector search.md|What is vector search?]]
+- [[learning_notes/What is an AI workflow.md|What is an AI workflow?]]
 
 ---
 

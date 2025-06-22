@@ -18,7 +18,7 @@ It is highly recommeneded to conduct some research on the PBL process and how it
 ## 2. Personas
 | Persona | Goals | Pain Points |
 |---------|-------|-------------|
-| **Student** | Understand the problem, split tasks, document findings, create cool deliverables | Disjoint tools, unclear expectations, fear of “AI = cheating” |
+| **Student** | Understand the problem, split tasks, document findings, create cool deliverables | Disjoint tools, unclear expectations, fear of "AI = cheating" |
 | **Educator / Facilitator** | Monitor teams, give feedback, grade fairly, promote critical thinking | No visibility into team process, enforce PBL process |
 | **Course Admin** | Manage problems, cohorts, permissions | Manual setup each term |
 
@@ -30,8 +30,8 @@ It is highly recommeneded to conduct some research on the PBL process and how it
 2. I can **read the official problem description** and **propose a problem statement** with learning goals (Markdown or Google Doc link).  
 3. I can **upload or link artifacts** (images, videos, docs, code repos) under a research phase.  
 4. I can **tag teammates on comments** to discuss artifacts asynchronously.  
-5. I can **use the “AI PBL tutor”** to brainstorm learning goals or get critique on my reflection, with usage logged for transparency.  
-6. I can **submit the final report link** and mark the project “Ready for review”.
+5. I can **use the "AI PBL tutor"** to brainstorm learning goals or get critique on my reflection, with usage logged for transparency.  
+6. I can **submit the final report link** and mark the project "Ready for review".
 
 ### 3.2 Educators
 1. _As an educator_ I can **create a new PBL problem**, defining title, description, and rubric.  
@@ -143,23 +143,23 @@ erDiagram
 
 Pre-populated your app with two example problems. If you want to impress the reviewers, think about how you can improve the app to fascilitate students to get the most out of the PBL process. It's not about making everything easier for the students, but increasing motivation to engage in the PBL process and making them creators of their own learning instead of just consumers.
 
-### 7.1 “Outbreak Simulator” (Epidemiology)
+### 7.1 "Outbreak Simulator" (Epidemiology)
 | Item | Description |
 |------|-------------|
 | **Problem Desc.** | A mysterious pathogen emerges in a city. Model its spread and propose containment strategies. |
 | **Deliverable** | A playable web simulation (SIR model) + report comparing R₀ under interventions. |
 | **Learning Goals** (sample) | • Understand SIR equations • Implement basic differential equations in JS • Interpret R₀ • Evaluate vaccination vs. quarantine |
 | **Artifacts** | Google Sheet with data, code repo link, demo GIF |
-| **AI Coach Prompts** | “Suggest parameter ranges for an airborne virus”, “Explain R₀ to a 12-year-old” |
+| **AI Coach Prompts** | "Suggest parameter ranges for an airborne virus", "Explain R₀ to a 12-year-old" |
 
-### 7.2 “EcoBalance” (Predator-Prey Ecology)
+### 7.2 "EcoBalance" (Predator-Prey Ecology)
 | Item | Description |
 |------|-------------|
 | **Problem Desc.** | Design a simple ecosystem where predators and prey reach dynamic equilibrium. Adjust variables to prevent extinction. |
 | **Deliverable** | Interactive Lotka-Volterra simulation + reflective essay on sustainability parallels. |
 | **Learning Goals** | • Implement predator-prey equations • Visualize populations over time • Identify tipping points |
 | **Artifacts** | Time-series charts, short explainer video, code link |
-| **AI Coach Prompts** | “Derive Lotka-Volterra from first principles”, “Suggest UX to show population collapse” |
+| **AI Coach Prompts** | "Derive Lotka-Volterra from first principles", "Suggest UX to show population collapse" |
 
 ---
 
@@ -183,19 +183,74 @@ Pre-populated your app with two example problems. If you want to impress the rev
 
 ---
 
-## 10. Focused Learning-Goal Subset  
-_The following items from_ `learning_goals.md` _are primarily exercised_:  
+## 10. Focused Learning Goals
+This project will give you hands-on experience with the following core concepts. Check them off in `goals/learning_goals.md` as you master them.
 
-**Chapter 2** – Version Control, Package Management, Linting, Template/Boilerplate, Env Variables, Unit & Integration Testing  
-**Chapter 3** – Monorepo (optional), Route, API, CRUD, JSON, State Management (Context/Zustand)  
-**Chapter 4** – Next.js (App Router)  
-**Chapter 5** – React Components, Tailwind, Forms & Validation  
-**Chapter 6** – REST, Webhooks (Google Drive), File Upload, Cron Jobs (future), Node.js backend  
-**Chapter 7** – SQL Schema, Relationships, Supabase/Postgres, Prisma/Drizzle, Migrations  
-**Chapter 8** – OAuth (Google), JWT, RBAC  
-**Chapter 9** – Vercel Hosting, Docker, Serverless Functions, CI/CD, IaC (basic), Caching/CDN, Monitoring & Tracing (starter)  
-**Chapter 10** – Third-Party API Integration (Google), OpenAI API  
-**Chapter 11** – GenAI API, Prompt Engineering, AI Agent basics (Coach helper)
+### Chapter 2: Development Workflow, Tooling & QA
+- [[learning_notes/What is version control.md|What is version control?]]
+- [[learning_notes/What are package managers.md|What are package managers?]]
+- [[learning_notes/What is linting.md|What is linting?]]
+- [[learning_notes/What is a template boilerplate.md|What is a template / boilerplate?]]
+- [[learning_notes/What are environment variables.md|What are environment variables?]]
+- [[learning_notes/What is a test.md|What is a test?]]
+
+### Chapter 3: Foundational Concepts & Core Technologies
+- [[learning_notes/What is a route.md|What is a route?]]
+- [[learning_notes/What is an API.md|What is an API?]]
+- [[learning_notes/What is CRUD.md|What is CRUD?]]
+- [[learning_notes/What is JSON.md|What is JSON?]]
+- [[learning_notes/What is state management.md|What is state management?]]
+
+### Chapter 4: Full-Stack Frameworks
+- [[learning_notes/What is Next.js.md|What is Next.js?]]
+
+### Chapter 5: Front-End Development
+- [[learning_notes/What is React.md|What is React?]]
+- [[learning_notes/What is a component.md|What is a component?]]
+- [[learning_notes/What is Tailwind CSS.md|What is Tailwind CSS?]]
+- [[learning_notes/What are forms.md|What are forms?]]
+- [[learning_notes/What is form validation.md|What is form validation?]]
+
+### Chapter 6: Back-End Development
+- [[learning_notes/What is Node.js.md|What is Node.js?]]
+- [[learning_notes/What is REST.md|What is REST?]]
+- [[learning_notes/What are webhooks.md|What are webhooks?]]
+- [[learning_notes/What is file upload.md|What is file upload?]]
+- [[learning_notes/What are signed URLs.md|What are signed URLs?]]
+
+### Chapter 7: Data Storage & Management
+- [[learning_notes/What is a database.md|What is a database?]]
+- [[learning_notes/What is SQL.md|What is SQL?]]
+- [[learning_notes/What is a schema.md|What is a schema?]]
+- [[learning_notes/What are database relationships.md|What are database relationships?]]
+- [[learning_notes/What is Postgres.md|What is Postgres?]]
+- [[learning_notes/What is an ORM.md|What is an ORM?]]
+- [[learning_notes/What is a database migration.md|What is a database migration?]]
+
+### Chapter 8: Authentication & Security
+- [[learning_notes/What is Auth.md|What is Auth?]]
+- [[learning_notes/What is OAuth.md|What is OAuth?]]
+- [[learning_notes/What is JWT.md|What is JWT?]]
+- [[learning_notes/What is role-based access control (RBAC).md|What is role-based access control (RBAC)?]]
+
+### Chapter 9: Infrastructure & Deployment
+- [[learning_notes/What is hosting.md|What is hosting?]]
+- [[learning_notes/What is a container.md|What is a container?]]
+- [[learning_notes/What is Docker.md|What is Docker?]]
+- [[learning_notes/What is serverless.md|What is serverless?]]
+- [[learning_notes/What is CI CD.md|What is CI/CD?]]
+- [[learning_notes/What is caching.md|What is caching?]]
+- [[learning_notes/What is monitoring (stretch).md|What is monitoring? (stretch)]]
+- [[learning_notes/What is tracing (stretch).md|What is tracing? (stretch)]]
+
+### Chapter 10: Third-Party Integrations & Services
+- [[learning_notes/What are third-party services.md|What are third-party services?]]
+- [[learning_notes/What is an API integration.md|What is an API integration?]]
+
+### Chapter 11: Specialized Development & AI
+- [[learning_notes/What is a GenAI API.md|What is a GenAI API?]]
+- [[learning_notes/What is prompt engineering.md|What is prompt engineering?]]
+- [[learning_notes/What is an AI agent.md|What is an AI agent?]]
 
 ---
 
@@ -215,4 +270,4 @@ _The following items from_ `learning_goals.md` _are primarily exercised_:
 
 ---
 
-### 🔑  PBLab delivers a purpose-driven CRUD experience with rich relational data, role-based access, and ethical AI integration—perfectly aligned with the course’s AI-first philosophy.
+### 🔑  PBLab delivers a purpose-driven CRUD experience with rich relational data, role-based access, and ethical AI integration—perfectly aligned with the course's AI-first philosophy.

@@ -131,9 +131,9 @@ This chapter introduces the fundamental building blocks of web applications, inc
   - What is Context?
   - What is Zustand?
   - What is Redux?
-  - What is a CRDT (Conflict-free Replicated Data Type)?
-  - What is real-time presence?
-  - What is peer-to-peer state synchronization?
+- [ ] [[learning_notes/What is a CRDT (Conflict-free Replicated Data Type).md|What is a CRDT (Conflict-free Replicated Data Type)?]]
+- [ ] [[learning_notes/What is real-time presence.md|What is real-time presence?]]
+- [ ] [[learning_notes/What is peer-to-peer state synchronization.md|What is peer-to-peer state synchronization?]]
 
 ### 3.4 Web Protocols
 - [ ] [[learning_notes/What is HTTP.md|What is HTTP?]]
@@ -175,6 +175,7 @@ This chapter delves into the client-side aspects of application building, focusi
 ### 5.4 Forms & User Input
 - [ ] [[learning_notes/What are forms.md|What are forms?]]
 - [ ] [[learning_notes/What is form validation.md|What is form validation?]]
+- [ ] [[learning_notes/What is debouncing.md|What is debouncing?]]
 
 ### 5.5 Media & Streaming
 - [ ] [[learning_notes/What is a media player.md|What is a media player?]]
@@ -197,6 +198,7 @@ This chapter covers the server-side logic and infrastructure, including runtime 
 - [ ] [[learning_notes/What is CORS.md|What is CORS?]]
 - [ ] [[learning_notes/What are webhooks.md|What are webhooks?]]
 - [ ] [[learning_notes/What is file upload.md|What is file upload?]]
+- [ ] [[learning_notes/What are signed URLs.md|What are signed URLs?]]
 - [ ] [[learning_notes/What is rate limiting.md|What is rate limiting?]]
 
 ### 6.3 Real-Time Systems
@@ -208,6 +210,7 @@ This chapter covers the server-side logic and infrastructure, including runtime 
 ### 6.4 Background Processing
 - [ ] [[learning_notes/What are cron jobs scheduled tasks.md|What are cron jobs / scheduled tasks?]]
 - [ ] [[learning_notes/What is a job queue.md|What is a job queue?]]
+- [ ] [[learning_notes/What are background workers.md|What are background workers?]]
 
 ---
 
@@ -356,6 +359,6 @@ This chapter covers specific development paradigms like mobile app development, 
   - What is a vector search?
   - What is memory-augmented RAG?
 - [ ] [[learning_notes/What is an AI workflow.md|What is an AI workflow?]]
-  - What is an AI orchestration framework?
-  - What is an AI agent?
-  - What is context management?
+- [ ] [[learning_notes/What is an AI orchestration framework.md|What is an AI orchestration framework?]]
+- [ ] [[learning_notes/What is an AI agent.md|What is an AI agent?]]
+- [ ] [[learning_notes/What is context management.md|What is context management?]]

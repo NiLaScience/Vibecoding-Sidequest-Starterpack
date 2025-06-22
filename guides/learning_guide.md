@@ -51,7 +51,23 @@ flowchart TD
 
 ---
 
+## 3 AI as Your Tutor
 
+You should use AI as your tutor throughout your learning & building journey. I would strongly recommend using it at two key stages:
+
+1. **Before starting a project**, ask it to read the PRD and explain the technical decisions that we suggest. You should get at least a basic understanding of the project and the tech stack. As you tackle the harder projects, this will allow you to make more informed decisions, and potentially deviate from our suggestions.
+
+2. **Every time you implemented something that you haven't done before**, assemble all the relevant context and ask AI to explain the implementation concretely in the code. Dig as deep as you want, but the aim should be to understand PATTERNS rather than individual lines of code.
+
+Both of these can be done entirely inside your AI-first IDE. 
+
+
+
+## 4  Using our Knowledge Graph
+
+We have assembled the 80/20 of the most useful concepts in web development and created a knowledge graph. Crucially, we have provided the STRUCTURE but the CONTENT is completely empty and up to you. To document your learning, I HIGHLY recommend filling in all the relevant notes for each project and follow the graph to identify and learn about related concepts.
+
+To properly interact with the graph and notes, you should use Obsidian. It will make note-taking and connection-making much more enjoyable. Use the graph view to see your knowledge graph grow.
 
 ---
 

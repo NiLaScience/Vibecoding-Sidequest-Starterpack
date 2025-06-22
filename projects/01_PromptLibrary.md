@@ -137,23 +137,57 @@ CREATE TABLE prompts (
 
 ---
 
-## 9. Focused Learning-Goal Subset  
-(from `learning_goals.md`)
+## 9. Focused Learning Goals
 
-| Chapter | Items Exercised |
-|---------|-----------------|
-| **1** – Product Strategy | MVP, PRD basics |
-| **2** – Workflow & Tooling | Version control (GitHub optional), Package management (npm), IDEs (Replit, Cursor), AI dev tools, Linting + Prettier (optional), Template/Boilerplate, `.env` |
-| **3** – Foundations | Route, API, CRUD, JSON, HTML/CSS/JS basics, State (React useState) |
-| **4** – Frameworks | Vite (lightweight) |
-| **5** – Front-End | React components, Tailwind, Forms & Validation, Router (minimal) |
-| **6** – Back-End | Node.js, REST endpoints |
-| **7** – Data Storage | SQLite / Replit DB, basic schema |
-| **9** – Deployment | Cloud hosting (Replit), Build process, CI/CD (Replit auto-deploy) |
-| **11** – AI Fundamentals | AI developer tools (Replit Agent), Prompt engineering (meta) |
+This project will give you hands-on experience with the following core concepts. Check them off in `goals/learning_goals.md` as you master them.
 
-*(No auth / advanced security yet – saved for later projects.)*
+### Chapter 1: Product, Business & Legal
+- [[learning_notes/What is an MVP.md|What is an MVP?]]
+- [[learning_notes/What is a product requirements document (PRD).md|What is a product requirements document (PRD)?]]
 
+### Chapter 2: Development Workflow, Tooling & QA
+- [[learning_notes/What is version control.md|What is version control?]]
+- [[learning_notes/What are package managers.md|What are package managers?]]
+- [[learning_notes/What is an IDE.md|What is an IDE?]]
+- [[learning_notes/What are AI developer tools.md|What are AI developer tools?]]
+- [[learning_notes/What is a template boilerplate.md|What is a template / boilerplate?]]
+- [[learning_notes/What are environment variables.md|What are environment variables?]]
+
+### Chapter 3: Foundational Concepts & Core Technologies
+- [[learning_notes/What is a route.md|What is a route?]]
+- [[learning_notes/What is an API.md|What is an API?]]
+- [[learning_notes/What is CRUD.md|What is CRUD?]]
+- [[learning_notes/What is JSON.md|What is JSON?]]
+- [[learning_notes/What is HTML.md|What is HTML?]]
+- [[learning_notes/What is CSS.md|What is CSS?]]
+- [[learning_notes/What is JavaScript.md|What is JavaScript?]]
+- [[learning_notes/What is a state.md|What is a state?]]
+
+### Chapter 5: Front-End Development
+- [[learning_notes/What is React.md|What is React?]]
+- [[learning_notes/What is a component.md|What is a component?]]
+- [[learning_notes/What is Tailwind CSS.md|What is Tailwind CSS?]]
+- [[learning_notes/What is a router.md|What is a router?]]
+- [[learning_notes/What are forms.md|What are forms?]]
+- [[learning_notes/What is form validation.md|What is form validation?]]
+- [[learning_notes/What is debouncing.md|What is debouncing?]]
+
+### Chapter 6: Back-End Development
+- [[learning_notes/What is Node.js.md|What is Node.js?]]
+- [[learning_notes/What is REST.md|What is REST?]]
+
+### Chapter 7: Data Storage & Management
+- [[learning_notes/What is a database.md|What is a database?]]
+- [[learning_notes/What is a schema.md|What is a schema?]]
+
+### Chapter 9: Infrastructure & Deployment
+- [[learning_notes/What is hosting.md|What is hosting?]]
+- [[learning_notes/What is a build process.md|What is a build process?]]
+- [[learning_notes/What is CI CD.md|What is CI/CD?]]
+
+### Chapter 11: Specialized Development & AI
+- [[learning_notes/What are AI developer tools.md|What are AI developer tools?]]
+- [[learning_notes/What is a GenAI API.md|What is a GenAI API?]]
 
 ---
 

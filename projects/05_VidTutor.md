@@ -127,20 +127,58 @@ Feel free to collapse / merge steps, or swap Manim for another library.
 
 ---
 
-## 8  Focused Learning-Goal Subset
+## 8. Focused Learning Goals
+This project will give you hands-on experience with the following core concepts. Check them off in `goals/learning_goals.md` as you master them.
 
-| Chapter | Highlighted Items Practised |
-|---------|----------------------------|
-| **1** Product & Biz | Spiky POVs, user feedback, landing page copy |
-| **2** Workflow | Advanced Git PRs, CI/CD, AI dev tools, issue templates |
-| **3** Foundations | API routes, JSON contracts, job queue basics |
-| **5** Front-End | React video player, forms, progressive loading |
-| **6** Back-End | File upload, job queues/cron, container images, rate-limiting |
-| **7** Data | Object store (videos), NoSQL vs SQL trade-offs |
-| **8** Security | Auth flows, signed URLs for private video |
-| **9** Infra | Cloud Functions or container orchestration, cost monitoring |
-| **10** Integrations | TTS, Manim, FFmpeg, social share endpoints |
-| **11** AI Advanced | Prompt engineering, GenAI APIs, pipeline orchestration |
+### Chapter 1: Product, Business & Legal
+- [[learning_notes/What is a landing page.md|What is a landing page?]]
+- [[learning_notes/What is user feedback.md|What is user feedback?]]
+
+### Chapter 2: Development Workflow, Tooling & QA
+- [[learning_notes/What is version control.md|What is version control?]]
+- [[learning_notes/What is CI CD.md|What is CI/CD?]]
+- [[learning_notes/What are AI developer tools.md|What are AI developer tools?]]
+
+### Chapter 3: Foundational Concepts & Core Technologies
+- [[learning_notes/What is an API.md|What is an API?]]
+- [[learning_notes/What is JSON.md|What is JSON?]]
+
+### Chapter 5: Front-End Development
+- [[learning_notes/What is a media player.md|What is a media player?]]
+- [[learning_notes/What are forms.md|What are forms?]]
+
+### Chapter 6: Back-End Development
+- [[learning_notes/What is file upload.md|What is file upload?]]
+- [[learning_notes/What is a job queue.md|What is a job queue?]]
+- [[learning_notes/What are background workers.md|What are background workers?]]
+- [[learning_notes/What is rate limiting.md|What is rate limiting?]]
+
+### Chapter 7: Data Storage & Management
+- [[learning_notes/What is a document store.md|What is a document store?]]
+- [[learning_notes/What is an object store.md|What is an object store?]]
+- [[learning_notes/What is SQL.md|What is SQL?]]
+
+### Chapter 8: Authentication & Security
+- [[learning_notes/What is Auth.md|What is Auth?]]
+- [[learning_notes/What are signed URLs.md|What are signed URLs?]]
+
+### Chapter 9: Infrastructure & Deployment
+- [[learning_notes/What is hosting.md|What is hosting?]]
+- [[learning_notes/What is a container.md|What is a container?]]
+- [[learning_notes/What is infrastructure as code (IaC) (stretch).md|What is infrastructure as code (IaC)? (stretch)]]
+- [[learning_notes/What is monitoring (stretch).md|What is monitoring? (stretch)]]
+
+### Chapter 10: Third-Party Integrations & Services
+- [[learning_notes/What are third-party services.md|What are third-party services?]]
+- [[learning_notes/What is payment processing (stretch).md|What is payment processing? (stretch)]]
+
+### Chapter 11: Specialized Development & AI
+- [[learning_notes/What is a GenAI API.md|What is a GenAI API?]]
+- [[learning_notes/What is prompt engineering.md|What is prompt engineering?]]
+- [[learning_notes/What is an AI workflow.md|What is an AI workflow?]]
+- [[learning_notes/What is an AI orchestration framework.md|What is an AI orchestration framework?]]
+- [[learning_notes/What is an AI agent.md|What is an AI agent?]]
+- [[learning_notes/What is context management.md|What is context management?]]
 
 *(Realtime & mobile optional; observability, IaC and basic payments are now **required**.)*
 
