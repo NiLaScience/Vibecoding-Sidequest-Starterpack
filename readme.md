@@ -3,6 +3,10 @@
 
 ---
 
+Go from vibecoder to AI-first developer. Guaranteed results.
+
+Top project submission gets paid $250 each month on Sidequests.gg
+
 ## 0  Why This Course Exists  
 
 The \#1 reason why other courses fail is because they waste your time with theoretical lessons and exercises, instead of spending 90% of your time building.
@@ -119,22 +123,10 @@ PRD → Phase → Checklist → Agent → Test/Deploy → Reflect
 
 | Resource             | Link                                     |
 | -------------------- | ---------------------------------------- |
-| **Discord**          | `[placeholder – invite link]`            |
-| **Program website**  | `[placeholder – vibecoding.dev]`         |
-| **YouTube playlist** | `[placeholder – full series]`            |
-| **Blog**             | `[placeholder – medium.com/@vibecoding]` |
-| **Monthly Demo Day** | `[placeholder – Typeform]`               |
+| **Discord**          | `[https://discord.gg/4ymrJF7z]`            |
+| **Program website**  | `[https://sidequests.gg/challenges]`         |
+| **YouTube playlist** | `[https://youtube.com/playlist?list=PL4O-7Ed28SRoEtvcIqHtcv5MothPz7sUF&si=H9vylA5V1VoPnlDw]` |
 
 Come say hi, show off builds, ask for code reviews, or drop PRs to improve the guides.
 
 ---
-
-## 6  Keeping It Viby  
-
-* **Checklist > spec.** Ask an LLM to turn any fuzzy goal into 8‑10 atomic tasks.  
-* Learn the basics: Git for version control, Markdown in Obsidian for learning documentation, deploymen on Vercel or Replit.
-* **Deploy early**—every commit that hits prod boosts confidence.  
-* **Document the stumble.** Red errors become fossils of learning; write them down.  
-* **Share the win.** A 30‑sec screen‑record is marketing gold *and* portfolio ammo.
-
-Happy vibecoding!

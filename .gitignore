@@ -1,8 +1,3 @@
-content/claude_structure.md
-content/content_brainstorm.md
-content/gemini_structure.md
-content/o3_content.md
-content/o3_structure.md
 guides/tools_o3pro.md
 guides/tools_o3.md
 guides/tools_o3
@@ -16,3 +11,7 @@ guides/workflow.md
 .obsidian/core-plugins.json
 .obsidian/workspace.json
 
+brainlift.md
+
+videos
+videos/intro.md

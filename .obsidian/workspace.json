@@ -11,6 +11,20 @@
             "id": "497cdac6d5a74a56",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "goals/learning_goals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "learning_goals"
+            }
+          },
+          {
+            "id": "c0d26032c6614bc8",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -18,17 +32,31 @@
             }
           },
           {
-            "id": "c0d26032c6614bc8",
+            "id": "317fca1535b5909c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/learning_guide.md",
+                "file": "learning_notes/2.3.2 AI-Powered Development Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "learning_guide"
+              "title": "2.3.2 AI-Powered Development Tools"
+            }
+          },
+          {
+            "id": "ea1689b3d8d87e42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/03_EduPictionary.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_EduPictionary"
             }
           }
         ],
@@ -182,6 +210,16 @@
   "active": "c0d26032c6614bc8",
   "lastOpenFiles": [
     "guides/learning_guide.md",
+    "learning_notes/3.1 Web Architecture and Principles.md",
+    "goals/learning_goals.md",
+    "learning_notes/2.3.2 AI-Powered Development Tools.md",
+    "projects/02_PBLab.md",
+    "guides/tools_guide.md",
+    "guides/workflow_guide.md",
+    "videos/workflow_tooling.md",
+    "projects/03_EduPictionary.md",
+    "learning_notes/What are WebSockets.md",
+    "learning_notes/What are cron jobs scheduled tasks.md",
     "learning_notes/1.3_Legal_Compliance_and_Data_Protection.md",
     "learning_notes/What is context management.md",
     "learning_notes/What is version control.md",
@@ -193,20 +231,10 @@
     "learning_notes/What is a CRDT (Conflict-free Replicated Data Type).md",
     "learning_notes/What are signed URLs.md",
     "learning_notes/What is debouncing.md",
-    "goals/learning_goals.md",
     "learning_notes/7.3_Data_Access_and_Manipulation.md",
     "learning_notes/1.1_Product_Strategy_and_Definition.md",
     "learning_notes/10.2_Common_Service_Integrations.md",
     "learning_notes/What is a product requirements document (PRD).md",
-    "learning_notes/What is user feedback.md",
-    "learning_notes/What is TypeScript.md",
-    "learning_notes/What is tracing (stretch).md",
-    "learning_notes/What is Tailwind CSS.md",
-    "learning_notes/What is state management.md",
-    "learning_notes/What is serverless.md",
-    "learning_notes/What is SEO.md",
-    "learning_notes/What is REST.md",
-    "learning_notes/What is React.md",
     "learning_notes/learning_notes",
     "learning_notes",
     "learning notes/learning_notes",
